@@ -8,7 +8,7 @@ height="1.4208191163604549in"}
 **Becoming a Hyperledger Aries Developer**
 
 ![lfs171x - hyperledger
-blockchain](images/image002.png){width="5.0in"
+blockchain](images/image002.webp){width="5.0in"
 height="2.962648731408574in"}
 
 Welcome to LFS173x: Becoming a Hyperledger Aries Developer
@@ -207,7 +207,7 @@ information.* We read about these Internet issues all the time. Simply
 put, trust on the Internet is broken and it needs to be fixed.
 
 ![No Shortage of Headlines About Internet
-Issues](images/image003.png){width="4.0in"
+Issues](images/image003.webp){width="4.0in"
 height="3.02958552055993in"}
 
 **No shortage of headlines about Internet issues**\
@@ -221,7 +221,7 @@ authentic data using distributed ledgers, purpose-built for
 decentralized trust.
 
 ![The Hyperledger Foundation
-Projects](images/image004.jpeg){width="6.0in"
+Projects](images/image004.webp){width="6.0in"
 height="3.1781517935258092in"}
 
 **The Hyperledger Foundation projects\
@@ -302,7 +302,7 @@ opening an account or in a bar, to prove that you are old enough to
 drink. When you are doing that you are *presenting* the credential.
 That's the *paper credential model*.
 
-![Examples of Paper Credentials](images/image005.png){width="4.0in"
+![Examples of Paper Credentials](images/image005.webp){width="4.0in"
 height="1.4140627734033246in"}
 
 **Examples of paper credentials**\
@@ -408,7 +408,7 @@ In this course, we'll show you how to use Aries to solve all those
 challenges---and more!
 
 ![The W3C Verifiable Credentials
-Model](images/image006.png){width="4.0in"
+Model](images/image006.webp){width="4.0in"
 height="1.9290387139107612in"}
 
 **The W3C Verifiable Credentials Model**\
@@ -1210,7 +1210,7 @@ The controller sits waiting for an event. When received, the event type
 is determined, it is dispatched for processing, and back into the event
 loop we go.
 
-![](images/image015.jpeg){width="4.0in"
+![](images/image015.webp){width="4.0in"
 height="2.6666666666666665in"}
 
 **My Aries controller\
