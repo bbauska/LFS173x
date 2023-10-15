@@ -5372,7 +5372,7 @@ what is being created there. Don't go it alone! That advice leads us to
 Aries Bifold, an excellent React Native open source wallet that is easy
 to customize and publish in mobile app stores.
 
-## Aries Mobile Agent - React Native (\"Bifold\") {#aries-mobile-agent---react-native-bifold .unnumbered}
+## Aries Mobile Agent - React Native (\"Bifold\")
 
 The most advanced Aries open source wallet project is known by its long
 name (the one used for its GitHub repository) [Aries Mobile Agent React
@@ -5405,7 +5405,7 @@ Bifold to both Android and iOS from the same code base. That's a benefit
 for some, but a showstopper for others. We'll look later at what options
 are available if you require native Android and iOS Aries wallets.
 
-## Making Aries Bifold Your Own {#making-aries-bifold-your-own .unnumbered}
+## Making Aries Bifold Your Own
 
 To create your own mobile wallet suitable for publishing to the app
 stores, one more repository is needed---the one for your own wallet.
@@ -5484,7 +5484,7 @@ own. And assuming everyone is on the watch for vulnerabilities in the
 code, your wallet is likely to be more secure than if you were
 developing it from scratch on your own.
 
-## Lab: Getting Started with the Aries Bifold Wallet {#lab-getting-started-with-the-aries-bifold-wallet .unnumbered}
+## Lab: Getting Started with the Aries Bifold Wallet
 
 In this lab, we'll go through an Aries Bifold wallet \"getting started\"
 tutorial to set up a mobile app development environment and run Aries
@@ -5494,7 +5494,7 @@ been applied to give that wallet its own personality.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/MobileAgentLab.md) to
 go to the lab.
 
-## So, What Else Is Out There? {#so-what-else-is-out-there .unnumbered}
+## So, What Else Is Out There?
 
 While there is a lot of focus in the Aries community on Aries Bifold,
 there are other options. Here is a summary of the Aries-based mobile
@@ -5532,7 +5532,7 @@ new Aries framework built specifically for delivering an iOS
 application. If you want to build an iOS native mobile application for
 Aries, AFS might be just what you need!
 
-## Chapter 7 Summary {#chapter-7-summary .unnumbered}
+## Chapter 7 Summary
 
 What did we learn in this chapter? We started with an overview of the
 features and functionality of current Aries wallets, and a look at new
@@ -5566,7 +5566,7 @@ deployments. Here is a list of the key take-aways from this chapter:
     blocks for getting started on building your own native mobile wallet
     for iOS or Android.
 
-## Chapter 8 Overview -- Planning for Production {#chapter-8-overview-planning-for-production .unnumbered}
+## Chapter 8 Overview -- Planning for Production
 
 Now that you have explored building your own Aries controller or mobile
 wallet, let's talk about actually getting it into production. This
@@ -5576,7 +5576,7 @@ While the vast majority of the content of this chapter will be in the
 context of enterprise versus mobile agents, we do touch on mobile agent
 production as well. Useful stuff!
 
-## Learning Objectives {#learning-objectives-7 .unnumbered}
+## Learning Objectives
 
 In this chapter (8), you will learn about:
 
@@ -5601,7 +5601,7 @@ In this chapter (8), you will learn about:
 -   Running many logical agents in a single deployment---multi-tenant
     deployments.
 
-## Production Challenges {#production-challenges .unnumbered}
+## Production Challenges
 
 The bulk of this chapter will be about production issues around
 enterprise agents, particularly issuer agents. But we'll first touch
@@ -5634,7 +5634,7 @@ a more or less continuous basis, it's still a challenge to keep things
 working across a range of \"stable\" releases that users might be
 running.
 
-## Community Upgrade Process {#community-upgrade-process .unnumbered}
+## Community Upgrade Process
 
 This backwards compatibility challenge is exacerbated in the Aries world
 because you want your mobile wallets integrating with a range of other
@@ -5669,7 +5669,7 @@ mobile wallet operators to let the rest of the community know about
 their status---what protocol changes they have made, what protocol
 changes are in the works, and what's their latest on interoperability.
 
-## Mobile Wallet Interoperability Testing {#mobile-wallet-interoperability-testing .unnumbered}
+## Mobile Wallet Interoperability Testing
 
 How can a wallet publisher let others know about their interoperability
 profile? We've talked in Chapter 2 about the Aries Agent Test Harness
@@ -5694,7 +5694,7 @@ Hyperledger Discord) with the AATH developers!
 ![Wallet](images/image043.png){width="2.0in"
 height="2.7480916447944006in"}
 
-## Deploying a Mediator (Or Not) {#deploying-a-mediator-or-not .unnumbered}
+## Deploying a Mediator (Or Not)
 
 Beyond deploying the mobile agent to the mobile OS app stores, each
 mobile wallet will need a mediator to at least serve as the target
@@ -5753,7 +5753,7 @@ best approach for your use case. We also recommend that you collaborate
 with the Aries community to know what is the best current approach to
 providing a mediator.
 
-## Mobile Wrap Up {#mobile-wrap-up .unnumbered}
+## Mobile Wrap Up
 
 That's all we have about deploying production mobile wallets. The rest
 of this chapter is largely focused around challenges with running
@@ -5763,7 +5763,7 @@ things that we've learned along the way will make it easier for you.
 Certainly this is not an exhaustive list, but it will give you a good
 starting point. You'll know a lot more than we did when we got started!
 
-## What's Coming in This Section? {#whats-coming-in-this-section .unnumbered}
+## What's Coming in This Section?
 
 This section mostly deals with working with Indy production ledgers,
 such as Sovrin MainNet. Most of this section also applies to the test
@@ -5772,7 +5772,7 @@ operate production ledgers. While to this point in the evolution of
 Aries, the focus has been on the use of Indy ledgers, we'll also touch
 briefly on impacts of using non-Indy ledgers.
 
-## Sandbox Versus Production-Secure Storage Handling {#sandbox-versus-production-secure-storage-handling .unnumbered}
+## Sandbox Versus Production-Secure Storage Handling
 
 As you develop your first Aries controllers and deploy your first
 proof-of-concept using a sandbox ledger, you can get quite complacent in
@@ -5800,7 +5800,7 @@ keep it secure. On that last part, security: you don't want someone to
 steal the keys from your secure storage and be able to act in your
 place!
 
-## Agent Storage Backup and Restore {#agent-storage-backup-and-restore .unnumbered}
+## Agent Storage Backup and Restore
 
 As was covered in the prerequisite for this course ([*\"Introduction to
 Hyperledger Self-Sovereign Identity Blockchain Solutions\",
@@ -5856,7 +5856,7 @@ objects, agent secure storage holds information about the connections
 your agent has established (with your private key for each connection)
 and about the protocols that are \"in-flight.\"
 
-## Indy Ledger Writing: Legal and Technical Issues {#indy-ledger-writing-legal-and-technical-issues .unnumbered}
+## Indy Ledger Writing: Legal and Technical Issues
 
 While Indy ledgers are pretty easy to write to (there\'s an API call for
 that!), there are a couple of added governance related complications
@@ -5864,7 +5864,7 @@ that need to be handled in using most production and some test Indy
 ledgers, the \"TAA\" and \"Endorsers.\" We'll go through each of them
 next.
 
-## The Indy Transaction Author Agreement (TAA) {#the-indy-transaction-author-agreement-taa .unnumbered}
+## The Indy Transaction Author Agreement (TAA)
 
 The Indy Transaction Author Agreement (TAA) is an optional agreement
 between a party that is writing a transaction to an Indy instance and
@@ -5928,7 +5928,7 @@ call to the controller. And of course, you must also be certain that
 what you are writing to the ledger doesn't break the agreement that
 you've agreed to.
 
-## Lab: Handling the TAA In ACA-Py {#lab-handling-the-taa-in-aca-py .unnumbered}
+## Lab: Handling the TAA In ACA-Py
 
 In this lab, we'll activate the TAA on a local instance of the
 VON-Network, and then run some API commands to retrieve the TAA
@@ -5937,7 +5937,7 @@ Agreement AML, and use it to accept the TAA.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/TAALab.md) to
 run the lab.
 
-## Endorsing Transactions {#endorsing-transactions .unnumbered}
+## Endorsing Transactions
 
 The second governance challenge in writing to a production ledger is
 having permission to do so. Not just anyone can write a transaction to
@@ -6033,7 +6033,7 @@ Let's take a look at the details of endorsing a transaction both
 manually and using a fully automated endorser flow in a couple of labs.
 We think you will like the second lab a whole lot more than the first!
 
-## Lab: Scripting Indy Production Writes {#lab-scripting-indy-production-writes .unnumbered}
+## Lab: Scripting Indy Production Writes
 
 In this lab, we'll look at the manual process (using the Indy CLI) for
 authoring, endorsing and writing transactions to a ledger that is fully
@@ -6042,7 +6042,7 @@ permissioned, such as Sovrin MainNet.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/ProductionWrites.md) to
 run the lab.
 
-## Lab: Using the Aries Endorser Service {#lab-using-the-aries-endorser-service .unnumbered}
+## Lab: Using the Aries Endorser Service
 
 In this lab, we'll look at a fully automated endorser service
 deployment. It's our old favorite Alice and Faber demo, but this time
@@ -6052,7 +6052,7 @@ to get its transaction written to the ledger.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/UsingAriesEndorserService.md) to
 run the lab.
 
-## Evolving the Endorser Service {#evolving-the-endorser-service .unnumbered}
+## Evolving the Endorser Service
 
 Endorsing transactions is in much better shape now than previously, with
 the capabilities built into Aries frameworks. There are a few things
@@ -6076,7 +6076,7 @@ eye out for. Notably:
     will need to be pluggable, allowing different implementations for
     different networks.
 
-## Summing Up {#summing-up .unnumbered}
+## Summing Up
 
 The most important thing you need to take from this section is that if
 you are using the Indy ledger, there will likely be legal and technical
@@ -6090,7 +6090,7 @@ framework that allow you to manage your Indy ledger writes.
 That wraps up some of the special handling issues for Indy ledgers. Next
 up---handling credential revocations.
 
-## Challenges (1) {#challenges-1 .unnumbered}
+## Challenges (1)
 
 Revocation is a surprisingly difficult challenge in software systems. A
 unilateral revocation of a credential by its issuer such that everyone
@@ -6183,7 +6183,7 @@ you, as a controller writer, don't have to worry about managing the
 creation of revocation registries at all. ACA-Py makes sure there is
 always an active and ready-to-go registry on hand!
 
-## Challenges (2) {#challenges-2 .unnumbered}
+## Challenges (2)
 
 Likewise, when you revoke a credential, your code just has to tell the
 ACA-Py instance \"I want to revoke credential X.\" ACA-Py takes care of
@@ -6261,7 +6261,7 @@ revocation. On the other hand, issuers that rarely revoke credentials
 (for example, monthly) could work either way, revoking credentials as
 they happen, or batching them into periodic writes to the ledger.
 
-## Lab: Using Revocation {#lab-using-revocation .unnumbered}
+## Lab: Using Revocation
 
 In this lab, we\'ll return to our Alice-Faber demo, but this time with
 the credential that Faber issues to Alice will be revocable. And we'll
@@ -6271,14 +6271,14 @@ prove the credential.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/FaberRevokesAliceCredential.md) to
 run the lab.
 
-## Summing Up Revocation {#summing-up-revocation .unnumbered}
+## Summing Up Revocation
 
 We covered revocation with AnonCreds and the complications it brings.
 Yuck! We also looked at the support that Aries frameworks provide to
 hide those complications from controller software. They make your job of
 developing Aries issuer applications a lot easier!
 
-## Things to Consider {#things-to-consider .unnumbered}
+## Things to Consider
 
 This is a very short section that is not about development, but rather a
 reminder about the challenges of getting requirements in order to do
@@ -6343,7 +6343,7 @@ Our best advice: don't go it alone!
 
 Enough on governance. Let's get back to technical stuff!
 
-## What Is Horizontal Scaling (1) {#what-is-horizontal-scaling-1 .unnumbered}
+## What Is Horizontal Scaling (1)
 
 For enterprise agents, an important production issue to consider is
 horizontal scaling---the ability to increase the capacity of an
@@ -6410,7 +6410,7 @@ The following is a summary of the architecture:
 -   All of the databases (both Secure Storage and the Search Database)
     are PostgreSQL instances.
 
-## What Is Horizontal Scaling (2) {#what-is-horizontal-scaling-2 .unnumbered}
+## What Is Horizontal Scaling (2)
 
 The design (hopefully) looks pretty straightforward, and the operation
 is pretty simple: use Aries protocols to connect two agents during
@@ -6472,7 +6472,7 @@ from shared storage at the start of processing an event and persisting
 state to that same shared storage at the end of processing. Minimize the
 state outside of event processing.
 
-## Making ACA-Py Stateless {#making-aca-py-stateless .unnumbered}
+## Making ACA-Py Stateless
 
 Making ACA-Py instances completely stateless has proven to be a
 challenge that is still being worked on. ACA-Py defaults to having an
@@ -6513,7 +6513,7 @@ collaborations happening in clustering ACA-Py. If you have the
 expertise, please contribute towards making that clean, elegant
 deployment description we're all looking to create.
 
-## Agent Instance Initialization {#agent-instance-initialization .unnumbered}
+## Agent Instance Initialization
 
 With horizontal scaling, you will have instances of the agent starting
 and stopping regularly, and initializing those agents must be managed
@@ -6563,7 +6563,7 @@ to use when you need it. OpenShift is Red Hat's distribution of
 Kubernetes, and the repository will give you some guidance as you deploy
 agents to a Kubernetes platform.
 
-## Operating Agent Services with Multiple Agents (1) {#operating-agent-services-with-multiple-agents-1 .unnumbered}
+## Operating Agent Services with Multiple Agents (1)
 
 We've covered how to deploy a single agent (one framework with one
 controller) a number of times in this course---Faber the issuer and
@@ -6615,7 +6615,7 @@ of the same Aries protocols. Since the overhead for each tenant is
 minimal, the solution can scale to the limits of the underlying platform
 (compute and storage), supporting as many tenants as needed.
 
-## Operating Agent Services with Multiple Agents (2) {#operating-agent-services-with-multiple-agents-2 .unnumbered}
+## Operating Agent Services with Multiple Agents (2)
 
 The base secure storage plays an important role in multi-tenancy,
 identifying for each request the tenant to which it applies and
@@ -6649,7 +6649,7 @@ Check out this document, [*\"Multi-tenancy in
 ACA-Py,\"*](https://github.com/hyperledger/aries-cloudagent-python/blob/main/Multitenancy.md) in
 the ACA-Py repository.
 
-## Chapter 8 Summary {#chapter-8-summary .unnumbered}
+## Chapter 8 Summary
 
 In this chapter you learned about the challenges of production, covering
 a little about mobile and a large amount about enterprise agents. This
@@ -6680,7 +6680,7 @@ work as an Aries developer. But we did want you to know about some of
 the more powerful features under the hood, as you get closer to
 releasing your first Aries-based product.
 
-## Chapter 9 Overview -- What to Do Next {#chapter-9-overview-what-to-do-next .unnumbered}
+## Chapter 9 Overview -- What to Do Next
 
 We've covered the core of the materials. Congratulations---you've made
 it! We hope you are well on your way to becoming a Hyperledger Aries
@@ -6692,7 +6692,7 @@ and controllers, agents and protocols, and agents and frameworks. We've
 looked at testing, message routing, mobile agents and moving things into
 production. Now it's time to consider what you want to do with Aries.
 
-## Learning Objectives {#learning-objectives-8 .unnumbered}
+## Learning Objectives
 
 In this chapter, you will learn about:
 
@@ -6703,7 +6703,7 @@ In this chapter, you will learn about:
 
 -   Aries Working Group Calls and other ways to get involved.
 
-## Next Steps {#next-steps .unnumbered}
+## Next Steps
 
 Now that you have (almost) completed the course, consider what you want
 to work on next:
@@ -6742,7 +6742,7 @@ not going to contribute at the lower levels, it's OK that you don\'t
 need to know everything about those layers. It\'s much like web
 development---you don\'t need to know TCP/IP to build web apps.
 
-## Developing Enterprise Applications {#developing-enterprise-applications .unnumbered}
+## Developing Enterprise Applications
 
 If you just want to build enterprise applications on top of the
 decentralized identity-related Hyperledger projects, you will be doing
@@ -6758,7 +6758,7 @@ have seen throughout the course, developing enterprise issuer/verifier
 Aries agents is much like building any web service: receive events,
 process them and respond.
 
-## Enterprise Agent Open Source Projects {#enterprise-agent-open-source-projects .unnumbered}
+## Enterprise Agent Open Source Projects
 
 While most folks are building ToIP applications for their own needs,
 here is an enterprise agent open source project that some might find
@@ -6800,7 +6800,7 @@ future where all companies have their own public BPA for exchanging
 verifiable information to enable trusted business transactions. It's a
 big project with a ton of potential!
 
-## Mobile Hyperledger Aries Wallets {#mobile-hyperledger-aries-wallets .unnumbered}
+## Mobile Hyperledger Aries Wallets
 
 As we covered in Chapter 7, if you want to build and deploy a mobile
 wallet, there are open source options available to start with, such as
@@ -6818,7 +6818,7 @@ Union tech company Bonifii has taken this path with its MemberPass
 capability in its mobile app that makes verifying the user on support
 calls way more secure.
 
-## Collaborating in the Aries Community {#collaborating-in-the-aries-community .unnumbered}
+## Collaborating in the Aries Community
 
 As a developer building applications that use/embed Aries frameworks, we
 recommend you join the regular [Aries Working Group
@@ -6845,7 +6845,7 @@ chapter to remind yourself of just some of the many possibilities with
 Aries technology. But realize that the possible applications are truly
 endless. We hear of new ideas every day!
 
-## Learning the Protocols {#learning-the-protocols .unnumbered}
+## Learning the Protocols
 
 As we've talked about a lot in the course, the [Aries
 RFCs](https://github.com/hyperledger/aries-rfcs) repo is an important
@@ -6868,7 +6868,7 @@ code bases intimately.
 If we did our job right in building this course, you should now have all
 the tools you need to get started!
 
-## Helping the Community {#helping-the-community .unnumbered}
+## Helping the Community
 
 As you build controllers on top of the Aries projects, you may find
 limitations in what is available today in Aries frameworks. When that
@@ -6885,7 +6885,7 @@ a way to make progress.
 The following are some ideas for some ways you can contribute to Aries
 projects and the other open-source projects on which they are built.
 
-## Extending the Aries Bifold Open-Source Mobile Wallet {#extending-the-aries-bifold-open-source-mobile-wallet .unnumbered}
+## Extending the Aries Bifold Open-Source Mobile Wallet
 
 We've noted Aries Bifold as being a rich, open-source mobile wallet. The
 developers working on Aries Bifold welcome new contributors with mobile
@@ -6900,7 +6900,7 @@ newly added features in Aries Framework JavaScript. Improve the
 continuous integration/continuous delivery pipelines. There are lots of
 places to help!
 
-## Mobile Wallet Backup and Restore {#mobile-wallet-backup-and-restore .unnumbered}
+## Mobile Wallet Backup and Restore
 
 As we discussed in both this course and its prerequisite, mobile agent
 backup and restore is a crucial capability that must be both secure and
@@ -6909,7 +6909,7 @@ capability for mobile agents that both automates the backup operation
 (that's pretty easy) and provides a user-friendly, secure restore
 operation (that's a bit more challenging!).
 
-## Contributing to the Aries Agent Test Harness {#contributing-to-the-aries-agent-test-harness .unnumbered}
+## Contributing to the Aries Agent Test Harness
 
 Embracing interoperability is a huge part of building a sustainable
 ecosystem. The Hyperledger Aries community wants to empower creators of
@@ -6949,7 +6949,7 @@ source project.
 Once you identify the problem, create an issue to get the right team to
 fix it---or, fix it yourself!
 
-## User Experience {#user-experience .unnumbered}
+## User Experience
 
 The focus of the Aries (and AnonCred, Indy, and Ursa) communities to
 this point has definitely been on the underlying technology. The
@@ -6964,7 +6964,7 @@ core, and as such, we need more great designers to join the community to
 make that happen. Projects such as the mobile agents and Business
 Partner Agent on the enterprise side are great places to contribute.
 
-## Aries Documentation {#aries-documentation .unnumbered}
+## Aries Documentation
 
 That \"user experience\" focus also needs to extend to developers
 joining the community, like you! For the first 5 years of the Aries,
@@ -6979,7 +6979,7 @@ site](https://aries.js.org/) is a great example of this transition. We
 need more of those! Highest priorities? Aries Cloud Agent Python and the
 Aries RFCs site.
 
-## Driving RFCs from Proposed to Accepted {#driving-rfcs-from-proposed-to-accepted .unnumbered}
+## Driving RFCs from Proposed to Accepted
 
 As you begin to build your applications and discover features you wish
 you had, ask in the community. You may find that an existing RFC covers
@@ -6996,7 +6996,7 @@ requests to clarify existing RFCs. The Aries RFC process allows for the
 addition of clarifying text without changing the major/minor version of
 the protocol. Accurate, clarifying corrections are welcome!
 
-## Creating a Scalable ZKP Revocation Scheme in AnonCreds {#creating-a-scalable-zkp-revocation-scheme-in-anoncreds .unnumbered}
+## Creating a Scalable ZKP Revocation Scheme in AnonCreds
 
 The biggest challenge in using AnonCreds is the revocation scheme. The
 great news is that it works and is reliable. The bad news is that it
@@ -7012,7 +7012,7 @@ AnonCreds-friendly version of the approach. It would be a huge
 contribution to the AnonCreds community to develop an open-source
 implementation of this scheme.
 
-## Ledger-Agnostic and W3C Format AnonCreds {#ledger-agnostic-and-w3c-format-anoncreds .unnumbered}
+## Ledger-Agnostic and W3C Format AnonCreds
 
 As of this writing (January 2023), one of the biggest initiatives in the
 Aries community is the definition and implementation of ledger-agnostic
@@ -7031,7 +7031,7 @@ verify a given credential.
 Contributing to initiatives in and around privacy-preserving Hyperledger
 AnonCreds is definitely worth looking into!
 
-## Improving indy-node {#improving-indy-node .unnumbered}
+## Improving indy-node
 
 If you are interested in getting into the public ledger part of Indy,
 particularly if you are going to be a Sovrin or Indicio Steward, you
@@ -7042,14 +7042,14 @@ primitives move into the mainstream, and thus, indy-node capabilities
 will need to evolve. Indy-node is coded in Python. Indy-node is a great
 place to contribute to the community!
 
-## Working in Cryptography {#working-in-cryptography .unnumbered}
+## Working in Cryptography
 
 Finally, at the deepest level, and core to all of the projects is the
 cryptography in [Hyperledger Ursa](https://github.com/hyperledger/ursa).
 If you are a cryptographer, that\'s where you want to be---and we want
 you there!
 
-## Additional Resources {#additional-resources .unnumbered}
+## Additional Resources
 
 We've covered most of the ways to get involved in the content above, so
 the following is just a list of those resources with links:
@@ -7094,7 +7094,7 @@ Starting from those links, you can learn anything more you need about
 becoming a Hyperledger Aries developer! The Aries community is very
 welcoming.
 
-## Chapter Summary {#chapter-summary .unnumbered}
+## Chapter Summary
 
 That's a wrap! Thank you for taking the course. We hope that you have
 acquired a sound understanding of Aries agents and are ready to jump in,
