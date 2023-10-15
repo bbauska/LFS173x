@@ -1,5 +1,5 @@
 ---
-title: "**LFS173x - Linux FoundationX --**"
+LFS173x: Linux FoundationX -- Becoming a Hyperledger Aries Developer
 ---
 
 ![](images/image001.png){width="4.0in"
@@ -31,7 +31,7 @@ This focus will be explained further in the course but for now, rest
 assured: if you want to start developing applications that are identity
 focused and using the blockchain, this is where you need to be.
 
-### Chapter 1.  {#chapter-1. .unnumbered}
+### Chapter 1.
 
 #### 
 
@@ -49,7 +49,7 @@ focused and using the blockchain, this is where you need to be.
 
 #### 
 
-### Chapter 2.  {#chapter-2. .unnumbered}
+### Chapter 2.
 
 #### 
 
@@ -57,7 +57,7 @@ focused and using the blockchain, this is where you need to be.
 
 #### 
 
-### Chapter 3.  {#chapter-3. .unnumbered}
+### Chapter 3.
 
 #### 
 
@@ -65,27 +65,27 @@ focused and using the blockchain, this is where you need to be.
 
 #### 
 
-### Chapter 4.  {#chapter-4. .unnumbered}
+### Chapter 4.
 
 #### 
 
 #### 
 
-### Chapter 5.  {#chapter-5. .unnumbered}
+### Chapter 5.
 
 #### 
 
 #### 
 
-### Chapter 6.  {#chapter-6. .unnumbered}
+### Chapter 6.
 
 #### 
 
 #### 
 
-### Chapter 7.  {#chapter-7. .unnumbered}
+### Chapter 7.
 
-## Course Learning Objectives {#course-learning-objectives .unnumbered}
+## Course Learning Objectives
 
 This course is designed to get students from the basics of Trust over IP
 (ToIP) and self-sovereign identity (SSI), what you learned about in the
@@ -128,7 +128,7 @@ By the end of this course, you should be able to:
 -   Learn about current happenings in Aries and how you can join and
     contribute to this amazing community!
 
-## Terminology {#terminology .unnumbered}
+## Terminology
 
 We use the terms blockchain, ledger, decentralized ledger technology
 (DLT) and decentralized ledger (DL) interchangeably in this course.
@@ -139,7 +139,7 @@ meaningful.
 For more definitions, take a look at our
 course [Glossary](https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS173x+1T2020/65cfba99617340f39051f7c6f839bf85/) section.
 
-## Labs and Demos {#labs-and-demos .unnumbered}
+## Labs and Demos
 
 Throughout this course there will be labs and demos that are a key part
 of the content and that you are strongly advised to complete. The labs
@@ -200,7 +200,7 @@ unfamiliar with (or not interested in) Docker set up their own native
 development environment. Doing so is outside the scope of the labs in
 this course.
 
-## Chapter 1 Overview - Overview {#chapter-1-overview---overview .unnumbered}
+## Chapter 1 Overview - Overview
 
 *Data breaches. Identity theft. Companies exploiting our personal
 information.* We read about these Internet issues all the time. Simply
@@ -238,7 +238,7 @@ of ledgers useful for verifiable data. And underneath it all is the
 cryptography from Ursa. But to build digital trust applications, Aries
 is where you need to dig in.
 
-##  Learning Objectives {#learning-objectives .unnumbered}
+##  Learning Objectives
 
 By the end of this chapter, you should:
 
@@ -249,7 +249,7 @@ By the end of this chapter, you should:
 
 -   Know the core concepts behind self-sovereign identity.
 
-## Advantages of Hyperledger Aries {#advantages-of-hyperledger-aries .unnumbered}
+## Advantages of Hyperledger Aries
 
 Hyperledger Aries, AnonCreds, Indy, and Ursa make it possible to:
 
@@ -281,7 +281,7 @@ projects are focused on decentralized identity, Indy is a specific
 blockchain implementation, whereas both Aries and AnonCreds are
 blockchain-agnostic. With Aries, you aren't limited to Indy.
 
-## Why We Need Identity Solutions {#why-we-need-identity-solutions .unnumbered}
+## Why We Need Identity Solutions
 
 In today\'s world, we are often issued *credentials* as paper documents
 (for example, our driver\'s license or passport). When we need to prove
@@ -332,7 +332,7 @@ where are those documents going after they are submitted? It's one thing
 to have them reviewed in person, but emailing core identity documents
 about yourself does not feel very safe!
 
-## Verifiable Credentials (1) {#verifiable-credentials-1 .unnumbered}
+## Verifiable Credentials (1)
 
 Enter the VC model, the bread and butter behind authentic data and
 decentralized identity. The VC model brings about the possibility of
@@ -386,7 +386,7 @@ presented on the next page) to perform the cryptographic calculations
 necessary to prove the four attributes. Forgeries become much (MUCH!)
 harder with verifiable credentials!
 
-## Verifiable Credentials (2) {#verifiable-credentials-2 .unnumbered}
+## Verifiable Credentials (2)
 
 Why does this matter for an Aries developer? When you are developing
 applications on top of Aries, you don't have to worry about the
@@ -424,7 +424,7 @@ Indy) has enabled a better way to build solutions using verifiable
 credentials for exchanging authentic data, and in doing so, enables the
 creation of a more trusted Internet.
 
-## Terms to Remember {#terms-to-remember .unnumbered}
+## Terms to Remember
 
 In the remainder of this opening chapter, we'll review some important
 concepts that you'll need for this course. In the following sections,
@@ -454,7 +454,7 @@ them in greater depth in this course: [*\"Introduction to Hyperledger
 Self-Sovereign Identity Blockchain Solutions\"
 (LFS172x)*](https://www.edx.org/course/identity-in-hyperledger-aries-indy-and-ursa)!
 
-## Self-Sovereign Identity (SSI) {#self-sovereign-identity-ssi .unnumbered}
+## Self-Sovereign Identity (SSI)
 
 Self-sovereign identity is one of the most important concepts discussed
 in the prerequisite course and it is what you should keep in mind at all
@@ -469,7 +469,7 @@ verifiable data registries enable you to independently present claims
 about your identity to others who can verify those claims with
 cryptographic certainty.
 
-## Trust Over IP (ToIP) {#trust-over-ip-toip .unnumbered}
+## Trust Over IP (ToIP)
 
 Along with SSI, another term we use in this course is Trust over IP
 (ToIP). ToIP is a Linux Foundation organization that (per the ToIP
@@ -506,7 +506,7 @@ using technology), but what the information in the credential means.
 That is, under whose authority and using what processes did the issuer
 come to issue the credential being proven?
 
-## Trust Over IP (ToIP): Aries in the ToIP Stack {#trust-over-ip-toip-aries-in-the-toip-stack .unnumbered}
+## Trust Over IP (ToIP): Aries in the ToIP Stack
 
 The core of Aries implements Layer Two (peer-to-peer protocol) and Layer
 Three (Data Exchange, including verifiable credentials) capabilities of
@@ -526,7 +526,7 @@ interact with other Aries agents using secure messaging to exchange
 verifiable data. You'll be harnessing a lot of power in the apps you
 build!
 
-## Trust Over IP (ToIP): Decentralized Governance {#trust-over-ip-toip-decentralized-governance .unnumbered}
+## Trust Over IP (ToIP): Decentralized Governance
 
 While Aries is on the technical stack side of the ToIP model, you will
 discover that in building decentralized systems, you will have to deal
@@ -588,7 +588,7 @@ Governance is not a technical concern that developers normally deal
 with, but it is a part of building ToIP-based solutions to keep in mind!
 Enough of that for now---back to the technical pieces.
 
-## Decentralized Identifiers (DIDs) {#decentralized-identifiers-dids .unnumbered}
+## Decentralized Identifiers (DIDs)
 
 A decentralized identifier (DID) is a self-generated universally unique
 identifier (uuid) with some added power. DIDs are resolvable into a DID
@@ -641,7 +641,7 @@ are used only for messaging; they are not used in the signing and
 issuing of verifiable credentials or in presenting proofs of claims from
 verifiable credentials.
 
-## Zero-Knowledge Proof (ZKP) {#zero-knowledge-proof-zkp .unnumbered}
+## Zero-Knowledge Proof (ZKP)
 
 A [zero-knowledge proof
 (ZKP)](https://en.wikipedia.org/wiki/Zero-knowledge_proof) is a
@@ -694,7 +694,7 @@ AnonCreds uses additional ZKPs to prevent verifiers receiving
 correlatable identifiers, including (as we'll see shortly) for proving
 the revocation status of a credential.
 
-## Selective Disclosure {#selective-disclosure .unnumbered}
+## Selective Disclosure
 
 A key capability of Hyperledger AnonCreds (and some other kinds of
 verifiable credentials) is selective disclosure; being able to share
@@ -720,7 +720,7 @@ height="2.208030402449694in"}
 By Peter Stokyo\
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Revocation {#revocation .unnumbered}
+## Revocation
 
 Verifiable credential revocation is the capability for an issuer to
 publish (to everyone) that an issued verifiable credential is no longer
@@ -754,7 +754,7 @@ prover generates a ZKP \"non-revocation proof\" that the verifier can
 check using the data in the published revocation registry without the
 holder sharing their credential ID. ZKPs are powerful, and useful!
 
-## Verifiable Credential Formats {#verifiable-credential-formats .unnumbered}
+## Verifiable Credential Formats
 
 Aries agents support several verifiable credentials formats and
 cryptographic signatures today, and allows for adding more, as new
@@ -804,7 +804,7 @@ capabilities or (if necessary) using a \"show everything\" LD Signature
 proof. It's something to keep an eye on when looking at what's new in
 Aries!
 
-## Secure Storage {#secure-storage .unnumbered}
+## Secure Storage
 
 Every Aries agent includes some kind of secure storage to hold its
 secrets. Most important of those secrets are the private keys that the
@@ -837,7 +837,7 @@ needed for the operation of the agent itself be stored in a separate
 \"business\" database. We'll talk more about this when we talk about
 Aries controllers, starting in Chapter 4.
 
-## Agent {#agent .unnumbered}
+## Agent
 
 Hyperledger Aries uses the term agent to mean the software that is
 operated by an entity (e.g., person, organization or thing) that
@@ -853,7 +853,7 @@ bank. We're going to be talking a lot about agents in this course. As an
 Aries developer, you'll spend most of your time building agents for
 specific use cases.
 
-## Chapter 1 Summary {#chapter-1-summary .unnumbered}
+## Chapter 1 Summary
 
 This chapter has largely been a review of the concepts introduced in the
 previous course. Its purpose is to provide context for why you want to
@@ -863,7 +863,7 @@ the prerequisite course: [*\"Introduction to Hyperledger Self-Sovereign
 Identity Blockchain Solutions\"
 (LFS172x)*](https://www.edx.org/course/identity-in-hyperledger-aries-indy-and-ursa).
 
-## Chapter 2 Overview -- Exploring Aries and Aries Agents  {#chapter-2-overview-exploring-aries-and-aries-agents .unnumbered}
+## Chapter 2 Overview -- Exploring Aries and Aries Agents
 
 As you learned in the prerequisite course, [*\"Introduction to
 Hyperledger Self-Sovereign Identity Blockchain Solutions\"
@@ -892,7 +892,7 @@ developer-to-be, are going to have to build. We will also look at the
 interfaces that exist to allow Aries agents to talk to one another and
 to distributed ledgers such as instances of Hyperledger Indy.
 
-## Learning Objectives {#learning-objectives-1 .unnumbered}
+## Learning Objectives
 
 By the end of this chapter (2), you should:
 
@@ -910,7 +910,7 @@ By the end of this chapter (2), you should:
 
 -   Learn about tools for testing Aries mobile wallet interoperability.
 
-## Examples of Aries Agents {#examples-of-aries-agents .unnumbered}
+## Examples of Aries Agents
 
 Let's first look at a couple of examples to remind us of what Aries
 agents can do. We'll also use this as a chance to introduce some
@@ -967,7 +967,7 @@ height="2.122876202974628in"}
     that Alice presented) to get a proof from Faber that it is a
     credentialed academic institution from an authorized regulator.
 
-## Lab: Issuing, Holding, Proving and Verifying {#lab-issuing-holding-proving-and-verifying .unnumbered}
+## Lab: Issuing, Holding, Proving and Verifying
 
 In this first lab, we'll walk through the interactions of three Aries
 agents:
@@ -982,7 +982,7 @@ agents:
 The instructions for running the lab can be found
 on [GitHub](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/IssuingHoldingProving.md).
 
-## More on the Aries Ecosystem (1) {#more-on-the-aries-ecosystem-1 .unnumbered}
+## More on the Aries Ecosystem (1)
 
 All of the examples of Aries agents in the previous section can be built
 and operated independently by different organizations because of the
@@ -1055,7 +1055,7 @@ The agents in an Aries ecosystem share many attributes:
     forwarding of messages to other agents. Such routing agents are
     usually fully automated.
 
-## More on the Aries Ecosystem (2) {#more-on-the-aries-ecosystem-2 .unnumbered}
+## More on the Aries Ecosystem (2)
 
 While there can be many agent variations, the most common ones are:
 
@@ -1084,7 +1084,7 @@ trust might be accomplished by third-party auditors or government
 regulators certifying the operation of the device, and hence the
 validity of the issued verifiable credentials.
 
-## Ledgers and Verifiable Credential Formats in an Aries Ecosystem {#ledgers-and-verifiable-credential-formats-in-an-aries-ecosystem .unnumbered}
+## Ledgers and Verifiable Credential Formats in an Aries Ecosystem 
 
 The vast majority of Aries agents connect with a public ledger (and
 sometimes several) to read and write the data necessary to share
@@ -1117,7 +1117,7 @@ and highlight the differences in using other verifiable credential
 formats. There is also a lab or two where you get hands-on with non-Indy
 use cases.
 
-## The Logical Components of an Aries Agent {#the-logical-components-of-an-aries-agent .unnumbered}
+## The Logical Components of an Aries Agent
 
 All Aries agent deployments have two logical components:
 a *framework* and a *controller*.
@@ -1163,7 +1163,7 @@ case. For example:
     Alice's credential. The controller also directs the agent to issue
     the credential.
 
-## Aries Agent Architecture (ACA-Py) (1) {#aries-agent-architecture-aca-py-1 .unnumbered}
+## Aries Agent Architecture (ACA-Py) (1)
 
 The diagram below is an example of an Aries agent architecture, as
 exemplified by Aries Cloud Agent-Python (ACA-Py):
@@ -1195,7 +1195,7 @@ is a pair of interfaces:
     the controller wants the framework to initiate an action, such as
     sending a message to another agent.
 
-## Aries Agent Architecture (ACA-Py) (2) {#aries-agent-architecture-aca-py-2 .unnumbered}
+## Aries Agent Architecture (ACA-Py) (2)
 
 What that means for an Aries developer is that the framework you use is
 a complete dependency that you include in your application. You don't
@@ -1221,7 +1221,7 @@ your agent needs a feature that is not in the framework you are using,
 you are welcome to do some Aries framework development and contribute
 the feature to Hyperledger. We'd really like it if you did!
 
-## Agent Terminology Confusion {#agent-terminology-confusion .unnumbered}
+## Agent Terminology Confusion
 
 In many places in the Aries community, the \"agent framework\" term we
 are using here is shortened to \"agent.\" That creates some confusion as
@@ -1235,7 +1235,7 @@ term \"agent\" is sometimes used just for the agent framework component
 and sometimes for the combined framework+controller. Naming is hard\...
 🤦
 
-## Aries Agent Internals and Protocols {#aries-agent-internals-and-protocols .unnumbered}
+## Aries Agent Internals and Protocols
 
 Below, we'll cover, at a high level, the internals of Aries agents and
 how Aries agent messaging protocols are handled. Aries uses DIDComm
@@ -1277,7 +1277,7 @@ Here's an overview of how that happens:
     agents, of course). The messages use the newly established encrypted
     communication channel and so are both private and secure.
 
-## Lab: Agents Connecting {#lab-agents-connecting .unnumbered}
+## Lab: Agents Connecting
 
 Let's run through a live code example of two Aries agents using a
 protocol to connect and send messages to one another.
@@ -1286,7 +1286,7 @@ Follow
 this [link](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/agentsConnecting.md) to
 GitHub to try it yourself and explore the code in the example.
 
-## Aries RFCs, Interoperability and Aries Interop Profiles (1) {#aries-rfcs-interoperability-and-aries-interop-profiles-1 .unnumbered}
+## Aries RFCs, Interoperability and Aries Interop Profiles (1)
 
 While we'll be digging into Aries protocols a lot more in this course
 (especially in Chapters 4 and 5), we want to cover something right up
@@ -1328,7 +1328,7 @@ And with a lack of focus on interoperability came frustration... no one
 could be certain that the agents that worked together yesterday would
 still be working together tomorrow.
 
-## Aries RFCs, Interoperability and Aries Interop Profiles (2) {#aries-rfcs-interoperability-and-aries-interop-profiles-2 .unnumbered}
+## Aries RFCs, Interoperability and Aries Interop Profiles (2)
 
 The solution for the Aries community was the definition of Aries Interop
 Profiles (AIPs). The concept of Aries Interop Profiles is formally
@@ -1385,14 +1385,14 @@ updates necessary to use DIDComm V2. Given the progress being made in
 Aries since AIP 2.0 was declared, AIP 3.0 will likely include a number
 of powerful new capabilities.
 
-## Exploring Aries Frameworks {#exploring-aries-frameworks .unnumbered}
+## Exploring Aries Frameworks
 
 Next, we provide a summary of the four open source Aries frameworks, in
 alphabetical order. Although several frameworks include their language
 of implementation in the name, none are restricted to deployments in
 that language, as we will see.
 
-## Aries Cloud Agent Python {#aries-cloud-agent-python .unnumbered}
+## Aries Cloud Agent Python
 
 [Aries Cloud Agent
 Python](https://github.com/hyperledger/aries-cloudagent-python) (ACA-Py)
@@ -1431,7 +1431,7 @@ Endorser](https://github.com/hyperledger/aries-endorser-service) that
 are pre-configured, purpose-built instances of ACA-Py suitable for
 immediate deployment.
 
-## Aries Framework Go {#aries-framework-go .unnumbered}
+## Aries Framework Go
 
 [Aries Framework
 Go](https://github.com/hyperledger/aries-framework-go) (AF-Go) is a
@@ -1448,7 +1448,7 @@ implementation is that the library can be compiled to WASM for use
 within a browser, opening up the possibility of browser-based Aries
 wallets.
 
-## Aries Framework JavaScript {#aries-framework-javascript .unnumbered}
+## Aries Framework JavaScript
 
 [Aries Framework
 JavaScript](https://github.com/hyperledger/aries-framework-javascript) (AFJ)
@@ -1464,7 +1464,7 @@ a complete, open source Aries wallet that can be customized for
 publishing to the Apple and Google app stores in hours. We'll cover
 Aries Bifold when we dive into mobile wallets later in the course.
 
-## Aries VCX {#aries-vcx .unnumbered}
+## Aries VCX
 
 [Aries VCX](https://github.com/hyperledger/aries-vcx) (for Verifiable
 Credential eXchange) derives directly from the Agent work started in the
@@ -1476,7 +1476,7 @@ AIP 1.0, with (as of January 2023) AIP 2.0 support in progress. Aries
 VCX has an extremely active contributor community, led by a team
 at [ABSA Bank](https://www.absa.co.za/personal/) (South Africa).
 
-## Other Aries Frameworks {#other-aries-frameworks .unnumbered}
+## Other Aries Frameworks
 
 Within Hyperledger, there is one more framework, [Aries Framework
 .NET](https://github.com/hyperledger/aries-framework-dotnet), however,
@@ -1501,7 +1501,7 @@ supports a mobile interface for accessing agency-hosted wallets. The
 implementation is extremely fast and includes a number of novel
 capabilities.
 
-## How to Ensure Interoperability {#how-to-ensure-interoperability .unnumbered}
+## How to Ensure Interoperability
 
 Now we know that there are lots of Aries frameworks, and lots of
 organizations out there building applications based on those frameworks.
@@ -1526,7 +1526,7 @@ continue to be interoperable. This is where the Aries Agent Test Harness
 comes in. It's an incredibly powerful and useful resource for the Aries
 community.
 
-## Aries Agent Test Harness (1) {#aries-agent-test-harness-1 .unnumbered}
+## Aries Agent Test Harness (1)
 
 The vision for the Aries Agent Test Harness (AATH) comes from the
 physical labs that the big telecommunication companies use to test their
@@ -1563,7 +1563,7 @@ any role---limited of course by the capabilities of the
 \"component-under-test.\" To make everything easy to run, the test
 agents are all packaged into Docker containers.
 
-## Aries Agent Test Harness (2) {#aries-agent-test-harness-2 .unnumbered}
+## Aries Agent Test Harness (2)
 
 The names of the participants in the test scripts imply their usual role
 in a verifiable credential ecosystem, although they may perform
@@ -1622,7 +1622,7 @@ Docker container of a controller (the backchannel) that responds to HTTP
 requests from the test harness, and an Aries component-under-test
 (usually an Aries framework) that the controller controls.
 
-## Lab: Aries Agent Test Harness {#lab-aries-agent-test-harness .unnumbered}
+## Lab: Aries Agent Test Harness
 
 In this lab, we'll look at the Aries Agent Test Harness that can be used
 to test the interoperability of two Aries agents.
@@ -1630,7 +1630,7 @@ to test the interoperability of two Aries agents.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/AriesTestHarness.md) to
 run the lab in GitHub.
 
-## Visualizing Aries Interoperability {#visualizing-aries-interoperability .unnumbered}
+## Visualizing Aries Interoperability
 
 While the Aries Agent Test Harness is interesting to know about, how
 does it help an Aries developer? Why is it important?
@@ -1687,7 +1687,7 @@ track:
     across Aries implementations. This will tell you, for example, is
     AIP 2.0 ready to use in the wild?
 
-## Lab: The Aries Interop Info Website {#lab-the-aries-interop-info-website .unnumbered}
+## Lab: The Aries Interop Info Website
 
 In this lab, you will check out the Aries Interop Info website, learn
 how to navigate beyond the front page and use the Allure reports to
@@ -1697,7 +1697,7 @@ see exactly where and why they are failing.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/AATHInfo.md) to
 see instructions for this lab in GitHub.
 
-## The Mobile Backchannel {#the-mobile-backchannel .unnumbered}
+## The Mobile Backchannel
 
 The last thing we'll mention about the AATH is a cool backchannel that
 can be used to test mobile wallet apps. The \"mobile\" backchannel
@@ -1720,7 +1720,7 @@ feature can't handle the QR code, you are pretty well stuck.
 
 On the next page, you will find a quick lab to give that a try.
 
-## Lab: The AATH Mobile Backchannel {#lab-the-aath-mobile-backchannel .unnumbered}
+## Lab: The AATH Mobile Backchannel
 
 In this lab, you will use AATH, the mobile backchannel and one of the
 other backchannels to test the interoperability of an Aries mobile
@@ -1729,7 +1729,7 @@ wallet. Get out your favorite mobile wallet app and give it a try!
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/AATHMobileBackchannel.md) to
 see instructions for this lab in GitHub.
 
-## Aries Mobile Test Harness {#aries-mobile-test-harness .unnumbered}
+## Aries Mobile Test Harness
 
 One more thing about mobile wallet testing. In addition to the mobile
 backchannel in the Aries Agent Test Harness, the Aries community has
@@ -1742,7 +1742,7 @@ device testing service that enables access to hundreds of mobile
 devices. If you are building and publishing an Aries mobile wallet,
 you'll want to check it out!
 
-## Chapter 2 Summary {#chapter-2-summary .unnumbered}
+## Chapter 2 Summary
 
 This chapter focused on the Aries ecosystem (the way Aries is used in
 the real world), the Aries agent architecture (the components that make
@@ -1777,7 +1777,7 @@ main reason for using an Aries agent is to exchange verifiable
 credentials, and verifiable credential exchange requires a ledger, we'll
 look at ledgers in the next section.
 
-## Chapter 3 Overview -- Running a Network for Aries Development {#chapter-3-overview-running-a-network-for-aries-development .unnumbered}
+## Chapter 3 Overview -- Running a Network for Aries Development
 
 In the last chapter, we learned all about the Aries agent architecture
 and the key components of an agent: the controller and framework. We
@@ -1789,7 +1789,7 @@ it---and have seen agents that work off-ledger---let's set the
 groundwork for using a distributed ledger for your development needs.
 We'll even look at some alternatives to using a ledger.
 
-## Learning Objectives {#learning-objectives-2 .unnumbered}
+## Learning Objectives
 
 In this chapter, we will describe:
 
@@ -1802,7 +1802,7 @@ In this chapter, we will describe:
 -   The ledger's genesis file---the file that contains the information
     necessary for an agent to connect to a specific ledger.
 
-## What You Don't Need to Know {#what-you-dont-need-to-know .unnumbered}
+## What You Don't Need to Know
 
 Many people come to the Hyperledger Aries and Indy communities thinking
 that because the projects are \"based on blockchain,\" that the most
@@ -1850,7 +1850,7 @@ to get started with Aries development. In the following, we assume you
 are building an application for running based on a Hyperledger Indy
 ledger.
 
-## Distributed Ledgers (1) {#distributed-ledgers-1 .unnumbered}
+## Distributed Ledgers (1)
 
 Before we go further in this chapter, let's go back to the basics and
 cover the purpose of a distributed ledger when using Aries. For Aries
@@ -1931,7 +1931,7 @@ into when doing Aries development:
 You will also run into Indy DIDs, did:key and did:peer both during
 development and elsewhere in this course.
 
-## Distributed Ledgers (2) {#distributed-ledgers-2 .unnumbered}
+## Distributed Ledgers (2)
 
 There are a lot of other DID methods defined in the W3C DID Standard
 registry. In theory, for verifiable credential purposes, any of them
@@ -1963,7 +1963,7 @@ We'll touch on the use of other DID methods later in this chapter. For
 now though, we'll focus on running (or not) an Indy network that we'll
 use for labs in the later chapters.
 
-## Using von-network {#using-von-network .unnumbered}
+## Using von-network
 
 The easiest way to get a local sandbox Indy network running is to
 use [von-network](https://github.com/bcgov/von-network), a pre-packaged
@@ -1992,7 +1992,7 @@ trouble of having to do that packaging themselves. A lab focused on
 running a von-network instance will be provided at the end of this
 chapter.
 
-## Or, Don't Run a Network for Aries Development {#or-dont-run-a-network-for-aries-development .unnumbered}
+## Or, Don't Run a Network for Aries Development
 
 What is easier than running a local network with von-network? How about
 not running a local network at all!
@@ -2043,7 +2043,7 @@ credential definition every time we start an issuer agent.
 In the labs in this course, you will see examples of development agents
 running against both local and remote sandbox Indy networks.
 
-## Proof of Concept Networks {#proof-of-concept-networks .unnumbered}
+## Proof of Concept Networks
 
 When you get to the point of releasing a proof of concept (PoC)
 application \"into the wild\" for multiple users to try, you will want
@@ -2095,7 +2095,7 @@ apps), the distributed ledger you choose must be one that is supported
 by those other agents. Those requirements often make either or both of
 the BCovrin and public networks as the best/only options.
 
-## What Is a Genesis File? {#what-is-a-genesis-file .unnumbered}
+## What Is a Genesis File?
 
 In working with an Indy network, the ledger's **[genesis
 file]{.underline}** contains the information necessary for an agent to
@@ -2171,7 +2171,7 @@ that to your agent. However, being able to write to the network is more
 complicated because you don't know the \"magic DID\" that enables full
 write access.
 
-## Genesis File Handling in Aries Frameworks {#genesis-file-handling-in-aries-frameworks .unnumbered}
+## Genesis File Handling in Aries Frameworks
 
 Most Aries frameworks make it easy to pass to the agent the genesis file
 for the network to which it will connect. For example, we'll see from
@@ -2184,14 +2184,14 @@ has a web server deployed with the network and provides the URL for the
 network's genesis file. The file is always generated after deployment,
 so the endpoints in the file are always accurate for that network.
 
-## Lab: Running a von-network Instance {#lab-running-a-von-network-instance .unnumbered}
+## Lab: Running a von-network Instance
 
 Please follow this [GitHub
 link](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/vonNetwork.md) to
 run a lab in which you will start a von-network, browse the ledger, look
 at the genesis file and create a DID.
 
-## Accessing Multiple Indy Networks {#accessing-multiple-indy-networks .unnumbered}
+## Accessing Multiple Indy Networks
 
 In the \"genesis file\" discussions before the lab we talked about
 loading *\"the\"* genesis file for an Aries agent deployment, allowing
@@ -2228,7 +2228,7 @@ ledgers will be handled by the Aries framework you are using. You have
 to decide what ledgers you want to use, but all the details about using
 the ledgers after that are handled by Aries.
 
-## The DID Resolution Process {#the-did-resolution-process .unnumbered}
+## The DID Resolution Process
 
 As discussed earlier in this chapter, Indy is not the only ledger around
 and Indy DIDs are not the only DIDs used in Aries. In this section,
@@ -2288,7 +2288,7 @@ That paragraph leads us to a couple of editorial comments:
 
 Let's look at how DID resolution is handled in Aries.
 
-## Aries DID Resolvers {#aries-did-resolvers .unnumbered}
+## Aries DID Resolvers
 
 Within Aries frameworks is a generic \"resolveDID\" call that takes DIDs
 of any method and returns (if available) a DIDDoc for the DID via a set
@@ -2331,7 +2331,7 @@ ledger. Aries implementations that don't support Indy, such as those
 based on Aries Framework Go, will likely have favored DID methods and
 use an external DID resolver for Indy DIDs.
 
-## The did:key DID Method {#the-didkey-did-method .unnumbered}
+## The did:key DID Method
 
 A special DID method that we haven't talked about yet but that deserves
 mention is \"did:key.\" did:key is similar to did:peer in that it is not
@@ -2367,7 +2367,7 @@ text processing, the representation is powerful, allowing an otherwise
 plain old public key string to be handled in the same way as any other
 DID.
 
-## Lab: Aries and Universal DID Resolvers {#lab-aries-and-universal-did-resolvers .unnumbered}
+## Lab: Aries and Universal DID Resolvers
 
 Enough on DID resolution, let\'s try some hands-on resolving.
 
@@ -2376,7 +2376,7 @@ this [link](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2
 run a lab in which you try out a couple of DID resolvers, including one
 built into an instance of ACA-Py.
 
-## DID Registration {#did-registration .unnumbered}
+## DID Registration
 
 Before we wrap up DID resolving, we need to briefly mention DID
 registration, the operation of creating and publishing a DID. While each
@@ -2391,7 +2391,7 @@ more complicated to register a DID vs. resolving because of the extra
 information needed for the registration, information that might be DID
 method specific. However, the concept is the same.
 
-## Writing and Reading the AnonCreds Objects {#writing-and-reading-the-anoncreds-objects .unnumbered}
+## Writing and Reading the AnonCreds Objects
 
 With the creation of the Hyperledger AnonCreds project in late 2022, and
 its focus on creating an implementation of AnonCreds that is not
@@ -2417,7 +2417,7 @@ for commonly handled/expected VDRs, and perhaps a callout to an
 external, universal resolver for retrieving other AnonCreds object
 identifiers.
 
-## Chapter 3 Summary {#chapter-3-summary .unnumbered}
+## Chapter 3 Summary
 
 The main point of this chapter is to get you started in the right spot:
 you don't need to dig deep into distributed ledger technology in order
@@ -2435,7 +2435,7 @@ demonstrated connecting two agents that didn't use a ledger. In this
 chapter, we covered running a ledger. So, in the next chapter, let's
 combine the two and look at running agents that connect to a ledger.
 
-## Chapter 4 Overview -- Developing Aries Controllers {#chapter-4-overview-developing-aries-controllers .unnumbered}
+## Chapter 4 Overview -- Developing Aries Controllers
 
 In the second chapter, we ran two simple command line agents that
 connected and communicated with one another. In the third chapter, we
@@ -2456,7 +2456,7 @@ discussion until Chapter 7. In the last section of this chapter, we'll
 cover controllers for other Aries open-source frameworks. As you'll
 discover, the concepts are pretty much the same across the frameworks.
 
-## Learning Objectives {#learning-objectives-3 .unnumbered}
+## Learning Objectives
 
 In this chapter (4), you will learn:
 
@@ -2471,7 +2471,7 @@ The goal of this chapter is to give you the knowledge you'll need to
 build your own controller using the framework of your choice. Succeed
 and you'll be an Aries developer!
 
-## Defining \"Wallet\" {#defining-wallet .unnumbered}
+## Defining \"Wallet\"
 
 In the prerequisite course, [*\"Introduction to Hyperledger
 Self-Sovereign Identity Blockchain Solutions\"
@@ -2496,7 +2496,7 @@ and other things. However, be aware that in some of the labs, Aries
 documentation and source code, you might see the old meaning used in
 places.
 
-## What Configuration Information Is Needed {#what-configuration-information-is-needed .unnumbered}
+## What Configuration Information Is Needed
 
 An Aries agent needs to know a lot of configuration information as it
 starts up. For example, it needs to know:
@@ -2521,7 +2521,7 @@ recognize. Need a reminder? Checkout the \"Aries Agent Architecture\"
 section of Chapter 2. We'll talk about these and other configuration
 items in this chapter and the next.
 
-## Command Line Parameters {#command-line-parameters .unnumbered}
+## Command Line Parameters
 
 All Aries agent frameworks will have a number of configuration options
 that must be set to deploy an instance in a specific scenario. At
@@ -2592,7 +2592,7 @@ height="2.827225503062117in"}
 **Override order when specifying options**\
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## The provision and start Options {#the-provision-and-start-options .unnumbered}
+## The provision and start Options
 
 A basic ACA-Py agent is a stateful component that persists data in its
 secure storage and as needed, to a ledger. When an agent starts up for
@@ -2648,7 +2648,7 @@ at least, AnonCreds revocation handling is done entirely within ACA-Py,
 and Aries controller developers don't really have to worry too much
 about it.
 
-## Startup Option Groups {#startup-option-groups .unnumbered}
+## Startup Option Groups
 
 The ACA-Py startup options are divided into a number of categories, as
 outlined in the following:
@@ -2725,7 +2725,7 @@ outlined in the following:
 specific to ACA-Py, few are exclusive to ACA-Py. Any agent, even those
 from other Aries frameworks, likely provide many of these options.
 
-## Lab: Agent Startup Options {#lab-agent-startup-options .unnumbered}
+## Lab: Agent Startup Options
 
 Here is a [short
 lab](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/ACA-PyStartup.md) to
@@ -2735,7 +2735,7 @@ The many (many!) ACA-Py startup options can be overwhelming. We'll
 address that in this course by pointing out which options are used by
 the different sample agents.
 
-## Exploring Aries Protocols (1) {#exploring-aries-protocols-1 .unnumbered}
+## Exploring Aries Protocols (1)
 
 Before we get into the internals of controllers, we need to talk about
 Aries protocols, introduced in Chapter 5 of the prerequisite
@@ -2804,7 +2804,7 @@ protocol (an Aries RFC). Included
 -   a state machine per role that defines the state transitions
     triggered by messages/events
 
-## Exploring Aries Protocols (2) {#exploring-aries-protocols-2 .unnumbered}
+## Exploring Aries Protocols (2)
 
 For example, the following table shows the messages, roles and states
 for the connection protocol. Each participant in an instance of a
@@ -2845,7 +2845,7 @@ Each administrative endpoint becomes part of the HTTP API exposed by the
 agent instance, and is visible by the OpenAPI/Swagger generated user
 interface. More on that later in this chapter.
 
-## Protocol Versions, AIP 1.0 and AIP 2.0 {#protocol-versions-aip-1.0-and-aip-2.0 .unnumbered}
+## Protocol Versions, AIP 1.0 and AIP 2.0
 
 As we start to get into Aries protocols, we need to talk about instances
 of protocols in terms of version and whether or not the protocol is part
@@ -2902,7 +2902,7 @@ AIP version and the differences between the protocols. As you'll see,
 for the protocols that changed from AIP 1.0 to 2.0, the changes are
 relatively subtle. The concepts are (for the most part) still the same.
 
-## Coming Soon: Aries Interop Protocol 3.0 {#coming-soon-aries-interop-protocol-3.0 .unnumbered}
+## Coming Soon: Aries Interop Protocol 3.0
 
 As we are writing this course (January 2023), the Aries community has
 started to talk about AIP 3.0. The primary motivation (at least right
@@ -2930,7 +2930,7 @@ see what is happening with AIP 3.0. As well, keep an eye on [Aries RFC
 0302 Aries Interop
 Profiles](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0302-aries-interop-profile).
 
-## Aries Protocols: The Controller Perspective (1) {#aries-protocols-the-controller-perspective-1 .unnumbered}
+## Aries Protocols: The Controller Perspective (1)
 
 We've defined all of the pieces of a protocol as well as where the code
 lives in an Aries framework such as ACA-Py. Let's take a look at a
@@ -3011,7 +3011,7 @@ Licensed under [CC BY
     wallet again as it has no idea how long it will take for the other
     agent to respond. Then it returns to waiting for more stuff to do.
 
-## Aries Protocols: The Controller Perspective (2) {#aries-protocols-the-controller-perspective-2 .unnumbered}
+## Aries Protocols: The Controller Perspective (2)
 
 That describes what happens when a protocol is triggered by a message
 from another agent. A controller might also decide it needs to initiate
@@ -3058,7 +3058,7 @@ initiate the execution of protocol.
 And that's it! We've covered the basics of protocols from the
 perspective of the controller. Let's see controllers in action!
 
-## Lab: Alice Gets a Credential {#lab-alice-gets-a-credential .unnumbered}
+## Lab: Alice Gets a Credential
 
 In this section, we'll start up two command line agents, much as we did
 in Chapter 2. However, this time, one of the participants, Faber
@@ -3075,7 +3075,7 @@ there is lots in the labs themselves. ***Don't skip them!***
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/AliceGetsCredential.md) to
 access the lab.
 
-## Links to Code {#links-to-code .unnumbered}
+## Links to Code
 
 There are a number of important things to highlight in the code from the
 previous lab---and in the ones to come. Make sure when you did the
@@ -3086,7 +3086,7 @@ command line parameters were used. Several of the labs that follow will
 include a comparable list of links that you can use to inspect and
 understand the code.
 
-## Learning the ACA-Py Controller API using OpenAPI (aka Swagger) {#learning-the-aca-py-controller-api-using-openapi-aka-swagger .unnumbered}
+## Learning the ACA-Py Controller API using OpenAPI (aka Swagger)
 
 Now that you have seen some examples of a running controller, let's get
 minimal. As noted earlier, ACA-Py has been implemented to expose an HTTP
@@ -3112,7 +3112,7 @@ loaded (using the **\--plugin \<module\>** command line parameter),
 those modules must add administrative endpoints to the OpenAPI/Swagger
 definition so that they are visible in the OpenAPI/Swagger interface.
 
-## Lab: Using ACA-Py's OpenAPI/Swagger Interface {#lab-using-aca-pys-openapiswagger-interface .unnumbered}
+## Lab: Using ACA-Py's OpenAPI/Swagger Interface
 
 In this lab, we'll introduce you to the OpenAPI/Swagger interface for
 interacting with a running ACA-Py instance, covering how to do some
@@ -3123,7 +3123,7 @@ interface to carry out the Faber and Alice use case.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/OpenAPIIntroduction.md) to
 run the OpenAPI/Swagger introduction lab.
 
-## Lab: Help Alice Get a Job {#lab-help-alice-get-a-job .unnumbered}
+## Lab: Help Alice Get a Job
 
 Time to do a little Python controller development. The next assignment
 is to extend the command line lab with Alice and Faber to include ACME
@@ -3138,7 +3138,7 @@ Alice needs your help. Are you up for it?
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/HelpAliceGetAJob.md) to
 run the lab.
 
-## Lab: Python Not for You? {#lab-python-not-for-you .unnumbered}
+## Lab: Python Not for You?
 
 The last lab in this section provides examples of controllers written in
 other languages. GitHub user amanji (Akiff Manji) has taken the agents
@@ -3162,7 +3162,7 @@ The issue was labelled \"Help Wanted\" and \"Good First Issue.\" If you
 are looking to contribute to some of the Aries projects, look in the
 repos for those labels on open issues. Contributions are always welcome!
 
-## Optional Exercise {#optional-exercise .unnumbered}
+## Optional Exercise
 
 Want to go further? This is optional, but we recommend doing this as an
 exercise to solidify your knowledge. Build your own \"Alice\" controller
@@ -3178,14 +3178,14 @@ submitting an issue](https://github.com/cloudcompass/ToIPLabs/issues).
 If you want, we might be able to help you package up your work and
 create a pull request (PR) to the aries-acapy-controllers repo.
 
-## Discussing Additional Frameworks {#discussing-additional-frameworks .unnumbered}
+## Discussing Additional Frameworks
 
 In this chapter we have focused on understanding controllers for Aries
 Cloud Agent Python (ACA-Py). The Aries project has several frameworks
 other than ACA-Py. In this section, we'll cover how controllers work
 with those frameworks.
 
-## Aries Framework JavaScript {#aries-framework-javascript-1 .unnumbered}
+## Aries Framework JavaScript
 
 Aries Framework JavaScript (AFJ) is a relatively new framework, but one
 that is getting lots of contributions, capabilities and use. It is the
@@ -3210,7 +3210,7 @@ height="4.3697473753280835in"}
 **Aries agent architecture---Aries Framework JavaScript**\
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Lab: Run Some Aries Framework JavaScript Agents {#lab-run-some-aries-framework-javascript-agents .unnumbered}
+## Lab: Run Some Aries Framework JavaScript Agents
 
 In this lab, we'll run an Alice/Faber demo with AFJ. In the lab, you
 will deploy a couple of agents, connect them, issue a credential from
@@ -3219,7 +3219,7 @@ one to the other and do a presentation request.
 To run the lab, go to the
 instructions [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/AFJGettingStarted.md).
 
-## Aries VCX {#aries-vcx-1 .unnumbered}
+## Aries VCX
 
 Aries VCX is architecturally similar to the Aries Framework JavaScript
 (a library embedded in a controller application), but adds the need for
@@ -3235,7 +3235,7 @@ events) to match the ACA-Py architecture. That might be an approach for
 supporting the use of any language controller with those Aries
 frameworks.
 
-## Lab: Getting Started with Aries VCX {#lab-getting-started-with-aries-vcx .unnumbered}
+## Lab: Getting Started with Aries VCX
 
 In this lab, we'll run a simple demo with Aries VCX using the NodeJS
 wrapper. As with the ACA-Py and AFJ labs, you will deploy a couple of
@@ -3245,7 +3245,7 @@ from one to the other and do a presentation request.
 To run the lab, go to the
 instructions [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/AriesVCXGettingStarted.md).
 
-## Aries Framework Go {#aries-framework-go-1 .unnumbered}
+## Aries Framework Go
 
 The Aries Framework Go (AFGo) takes the same approach to the
 controller/framework architecture as ACA-Py---an HTTP interface between
@@ -3264,7 +3264,7 @@ credentials exchange model. AFGo supports using other types of ledgers,
 W3C Verifiable Credentials Data Model Standard signatures, such as
 LD-Signatures and BBS+ Signatures for JSON-LD.
 
-## Optional Lab: Run the Aries-Framework-Go \"Getting Started\" Exercise {#optional-lab-run-the-aries-framework-go-getting-started-exercise .unnumbered}
+## Optional Lab: Run the Aries-Framework-Go \"Getting Started\" Exercise
 
 In this optional lab, we'll run the Aries Framework Go repository's
 \"Getting Started\" exercise to learn a bit about aries-framework-go.
@@ -3272,7 +3272,7 @@ In this optional lab, we'll run the Aries Framework Go repository's
 To run the lab, go to the
 instructions [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/AFGoGettingStarted.md).
 
-## Aries Framework .NET {#aries-framework-.net .unnumbered}
+## Aries Framework .NET
 
 The oldest of the other Aries frameworks supporting AIP 1.0 is Aries
 Framework .NET (AF.Net) written in Microsoft's open-source C# language
@@ -3287,7 +3287,7 @@ or as a more limited cloud routing agent. A jack-of-all-trades option!
 The downside of using AF.Net is that it is currently still at AIP 1.0
 and the open-source implementation has not had much attention recently.
 
-## Chapter 4 Summary {#chapter-4-summary .unnumbered}
+## Chapter 4 Summary
 
 We've covered an awful lot in this chapter! As we said at the beginning,
 this is the core of the course, the hands-on part that will really get
@@ -3296,7 +3296,7 @@ cases. The rest of the course will be lighter on labs, but we'll refer
 back to the labs from this chapter to put those capabilities into a
 context with which you have experience.
 
-## Chapter 5 Overview -- Digging Deeper-The Aries Protocols {#chapter-5-overview-digging-deeper-the-aries-protocols .unnumbered}
+## Chapter 5 Overview -- Digging Deeper-The Aries Protocols
 
 In the last chapter, we focused on how a controller injects business
 logic to control the agent and make it carry out its intended use cases.
@@ -3317,7 +3317,7 @@ Working Group. The DIDComm Messaging V2 specification was completed in
 2022 by the DIDComm Working Group within the [Decentralized Identity
 Foundation](https://identity.foundation/) (DIF).
 
-## Learning Objectives {#learning-objectives-4 .unnumbered}
+## Learning Objectives
 
 As we've just explained, this chapter is all about messaging and the
 protocols that allow messaging to happen. We will discuss:
@@ -3336,7 +3336,7 @@ protocols that allow messaging to happen. We will discuss:
 
 -   A summary about the differences between AIP 1.0 and AIP 2.0.
 
-## The Aries Project GitHub Repository {#the-aries-project-github-repository .unnumbered}
+## The Aries Project GitHub Repository
 
 The concepts and features that make up the Aries project are documented
 in the Hyperledger aries-rfcs GitHub repository. RFC stands for
@@ -3377,7 +3377,7 @@ relevant to Aries protocols and interoperability, it will be covered in
 aries-rfcs. A few of the HIPEs in the Indy repo are useful and so are
 still referenced.
 
-## DIDComm Concepts {#didcomm-concepts .unnumbered}
+## DIDComm Concepts
 
 We introduced the core concepts of DIDComm in Chapter 5
 of [*\"Introduction to Hyperledger Self-Sovereign Identity Blockchain
@@ -3443,7 +3443,7 @@ delivered. With the Aries protocols, it's the reverse---we know that the
 messages get delivered (we don't care how), and we only care about the
 content of each message.
 
-## What Protocols Matter for Controller Development? {#what-protocols-matter-for-controller-development .unnumbered}
+## What Protocols Matter for Controller Development?
 
 While it's important to understand that both layers of protocols exist,
 for the most part, Aries application developers (those building Aries
@@ -3469,7 +3469,7 @@ upper-level, Aries protocols (content). We will cover more about the
 lower level DIDComm (envelope) protocol in Chapter 6 when we talk about
 message routing.
 
-## Understanding Aries Protocol Messages {#understanding-aries-protocol-messages .unnumbered}
+## Understanding Aries Protocol Messages
 
 As we saw in the labs in the previous chapter, the format of Aries
 protocol messages is JSON. Let's start our look into Aries protocols by
@@ -3558,7 +3558,7 @@ please check out [RFC
 0020](https://github.com/hyperledger/aries-rfcs/blob/main/concepts/0020-message-types/README.md) to
 see the accepted information about message types.
 
-## Message Decorators {#message-decorators .unnumbered}
+## Message Decorators
 
 In addition to protocol specific data elements in messages, messages can
 include \"decorators,\" standardized message elements that define
@@ -3604,7 +3604,7 @@ display in multiple languages) is more likely to be handled by a
 specific message type, as its purpose can't be understood except by the
 handler of that particular type of message.
 
-## Special Message Types: Ack and Problem Report {#special-message-types-ack-and-problem-report .unnumbered}
+## Special Message Types: Ack and Problem Report
 
 The Aries Working Group has defined two message types that deserve
 special attention: ack (acknowledge) and problem_report. Much like
@@ -3639,7 +3639,7 @@ when an agent sends off a message and doesn't hear back in a time it
 thinks is reasonable, it can send a problem report message asking if the
 previous message was received.
 
-## Protocols and Messages: The Controller's Perspective {#protocols-and-messages-the-controllers-perspective .unnumbered}
+## Protocols and Messages: The Controller's Perspective
 
 Since protocols enable the interactions between Aries agents, it's
 important for you, the Aries developer, to know what the protocols do
@@ -3666,7 +3666,7 @@ your controller needs to use, the details about what information the
 controller needs to supply (and not supply) to the framework is in the
 API exposed for controllers.
 
-## Controller Perspective {#controller-perspective .unnumbered}
+## Controller Perspective
 
 Messages are sent between agents. Let's talk about the processing of
 messages from the perspective of the controller. We'll start with a
@@ -3689,7 +3689,7 @@ in a production agent implementation. **Don't rely on those parameters
 in your application!** In this section, we'll make sure those options
 are off.
 
-## Initiating a Protocol {#initiating-a-protocol .unnumbered}
+## Initiating a Protocol
 
 We'll start with a protocol initiated by the controller. Assume that
 Faber College and Alice have established a DIDComm connection and now
@@ -3752,7 +3752,7 @@ message), the agent framework also persists a protocol state object in
 anticipation of the response to come. We'll talk more about that in the
 next section.
 
-## Receiving a Response {#receiving-a-response .unnumbered}
+## Receiving a Response
 
 After the message is sent, the agent handles other work it needs to do.
 For an enterprise agent such as Faber's, that might be hundreds or
@@ -3830,7 +3830,7 @@ responding, and another layer figures out what the request is for and
 how to respond. If you have done any web development, you've seen this
 pattern before.
 
-## Lab: Executing a Protocol {#lab-executing-a-protocol .unnumbered}
+## Lab: Executing a Protocol
 
 We only have one lab in this chapter, but it's a doozy! We're going to
 use the OpenAPI/Swagger interface for ACA-Py that was introduced in the
@@ -3841,7 +3841,7 @@ you and OpenAPI/Swagger to receive and respond for each of the agents.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/OpenAPIController.md) to
 jump into the lab.
 
-## AIP's Impact on the Aries Developers Work {#aips-impact-on-the-aries-developers-work .unnumbered}
+## AIP's Impact on the Aries Developers Work
 
 In Chapter 2, we talked about a key driver in the Hyperledger Aries
 community---the Aries Interop Profile (AIP) ([RFC
@@ -3889,7 +3889,7 @@ introduced. You also have to be aware of what's happening with the Aries
 framework you are using. Chances are, there are community meetings and
 regular updates for that.
 
-## Lab: Executing Protocols Using JSON-LD Credentials {#lab-executing-protocols-using-json-ld-credentials .unnumbered}
+## Lab: Executing Protocols Using JSON-LD Credentials
 
 Remember when we said there is only one lab in this chapter? Well,
 technically, we were telling the truth\... This lab is going to be
@@ -3904,7 +3904,7 @@ credentials?
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/master/docs/LFS173xV2/OpenAPIControllerAIP2.md) to
 jump into the lab.
 
-## Reflections: New Protocols and Verifiable Credential Formats {#reflections-new-protocols-and-verifiable-credential-formats .unnumbered}
+## Reflections: New Protocols and Verifiable Credential Formats
 
 All done? We think that's a pretty important lab for a couple of
 reasons. Here are some things to reflect upon now that you've done the
@@ -3951,7 +3951,7 @@ data. In fact, the same JSON-LD credential can even have an AnonCreds
 signature and a JSON-LD verifiable credential signature at the same
 time.
 
-## Chapter 5 Summary {#chapter-5-summary .unnumbered}
+## Chapter 5 Summary
 
 We have covered a lot of information about the Aries protocols including
 the details of the protocols you will use as you code them into your
@@ -3996,7 +3996,7 @@ are **always** welcome.
 Easy, peasy, right?! You're well on your way to becoming a Hyperledger
 Aries developer!
 
-## Chapter 6 Overview -- DIDComm Message Router {#chapter-6-overview-didcomm-message-router .unnumbered}
+## Chapter 6 Overview -- DIDComm Message Router
 
 So far in this course we have focused on how a controller injects
 business logic to control the agent and make it carry out its intended
@@ -4012,7 +4012,7 @@ Happily, a lot of what we cover in this chapter is important to know as
 an Aries developer, but is largely just \"taken care of\" by the Aries
 frameworks you will use.
 
-## Learning Objectives {#learning-objectives-5 .unnumbered}
+## Learning Objectives
 
 In this chapter (6), you will learn about:
 
@@ -4030,7 +4030,7 @@ In this chapter (6), you will learn about:
 -   What happens when Aries agents establish a connection (in painful
     detail!).
 
-## Delivering Messages from Sender to Recipient {#delivering-messages-from-sender-to-recipient .unnumbered}
+## Delivering Messages from Sender to Recipient
 
 Before we can cover mobile wallets in the next chapter, there is an
 important digression we have to make in order to understand an important
@@ -4108,7 +4108,7 @@ Alice's message. This matches the DIDComm world exactly, with Alice
 using encryption for the envelopes, and the postal service and mailroom
 as routing agents to facilitate delivery.
 
-## DIDComm Mediators and Relays {#didcomm-mediators-and-relays .unnumbered}
+## DIDComm Mediators and Relays
 
 In DIDComm, the term **[mediator]{.underline}** is a routing agent that
 the recipient has directed the sender to use when sending a message. In
@@ -4154,7 +4154,7 @@ agent 2, then agent 2 is acting as a mediator agent, but not because
 Alice referenced, but rather because that's how Faber's agent is
 configured.
 
-## Mediators and Relays Are Agents Too! {#mediators-and-relays-are-agents-too .unnumbered}
+## Mediators and Relays Are Agents Too!
 
 An important item to underline here is that mediators and relays are
 themselves DIDComm agents. They may only do routing activities, or they
@@ -4164,7 +4164,7 @@ interact, and they use that channel to coordinate the routing they will
 do on behalf of the sender and recipient agents, and to route the
 messages.
 
-## Message Encryption Handling {#message-encryption-handling .unnumbered}
+## Message Encryption Handling
 
 The DIDComm encryption handling is performed within the Aries
 frameworks, and not really something a developer building applications
@@ -4189,7 +4189,7 @@ Much thought has also gone into repudiable and non-repudiable messaging,
 as described in [RFC
 0049](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0049-repudiation).
 
-## Mediators, Relays and Privacy (1) {#mediators-relays-and-privacy-1 .unnumbered}
+## Mediators, Relays and Privacy (1)
 
 When messages pass through other agents there are some privacy
 implications that need to be considered. It is tempting to simplify the
@@ -4250,7 +4250,7 @@ wallet users, in addition to Alice.
 -   Since agent 3 routes lots of messages via the agent 4 mediator,
     agent 3 does not know the message from Faber is for Alice.
 
-## Mediators, Relays and Privacy (2) {#mediators-relays-and-privacy-2 .unnumbered}
+## Mediators, Relays and Privacy (2)
 
 -   Agent 4 (Alice's mobile wallet mediator) knows every time Alice
     receives a message and when she picks up the messages.\
@@ -4303,7 +4303,7 @@ In the remainder of this chapter, we'll focus on the mobile agent and
 mediator use case, the only required use of a mediator in an ecosystem
 of DIDComm agents.
 
-## Lab: Using a Mediator {#lab-using-a-mediator .unnumbered}
+## Lab: Using a Mediator
 
 Enough theory. Let's see some routing agents in practice. The [Aries
 Mediator
@@ -4317,7 +4317,7 @@ with a mediator in front of each of them.
 Click [here](https://github.com/cloudcompass/ToIPLabs/blob/main/docs/LFS173xV2/MediatorLab.md) to
 get started on the mediator lab.
 
-## Things to Consider When Developing a Mobile Agent {#things-to-consider-when-developing-a-mobile-agent .unnumbered}
+## Things to Consider When Developing a Mobile Agent
 
 It would be much more interesting to talk about Aries mobile wallets (as
 we'll do in the next chapter---stay tuned!), so why the in-depth look
@@ -4364,7 +4364,7 @@ height="3.38300634295713in"}
 **Things to consider when developing a mobile agent**\
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Mobile Wallets and Trust {#mobile-wallets-and-trust .unnumbered}
+## Mobile Wallets and Trust
 
 As mentioned in the earlier section on privacy, the mediator for a
 mobile wallet will know more than any other about their clients
@@ -4413,7 +4413,7 @@ example) a mobile device (perhaps several!) such that the data in the
 cloud cannot be used by anyone other than the owner of the data. It's an
 interesting approach, and one that might be viable and useful!
 
-## Adding a Mediator {#adding-a-mediator .unnumbered}
+## Adding a Mediator
 
 To this point in the course when we've talked about establishing a
 connection, we've assumed the two agents are able to talk *directly* to
@@ -4431,7 +4431,7 @@ care of automatically by the Aries framework. And for other agents
 is nothing to do. Everything needed for delivering messages to the
 mobile wallet will be automatically handled by the Aries framework.
 
-## The Scenario {#the-scenario .unnumbered}
+## The Scenario
 
 Here is a picture of the scenario we're going to go through. Faber is an
 enterprise agent (an issuer/verifier) and is establishing a connection
@@ -4450,7 +4450,7 @@ height="1.604575678040245in"}
 **Faber sending messages to Alice --- common case**\
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## The Scenario: All the DIDs {#the-scenario-all-the-dids .unnumbered}
+## The Scenario: All the DIDs
 
 DIDs and DIDDocs are generated by each participant for each relationship
 they have. That includes:
@@ -4468,7 +4468,7 @@ Alice/mediator connection is needed, regardless of how many connections
 Alice has with other agents. For example, if Acme and Alice connect,
 only two additional DIDDocs are added (Alice for Acme, Acme for Alice).
 
-## The Scenario: DIDDoc Data (1) {#the-scenario-diddoc-data-1 .unnumbered}
+## The Scenario: DIDDoc Data (1)
 
 From a routing perspective, the important information in the DIDDoc is
 the following (as defined in the DIDDoc Conventions [RFC
@@ -4512,7 +4512,7 @@ JSON above.
 ![](images/image031.png){width="6.0in"
 height="5.084033245844269in"}
 
-## The Scenario: DIDDoc Data (2) {#the-scenario-diddoc-data-2 .unnumbered}
+## The Scenario: DIDDoc Data (2)
 
 ![](images/image032.png){width="6.0in"
 height="2.6957983377077865in"}
@@ -4523,7 +4523,7 @@ height="4.908683289588802in"}
 ![](images/image034.png){width="6.0in"
 height="4.5198884514435695in"}
 
-## The Scenario: The null ServiceEndpoint {#the-scenario-the-null-serviceendpoint .unnumbered}
+## The Scenario: The null ServiceEndpoint
 
 The null **serviceEndpoint** for Alice\'s mobile wallet is worth a
 comment. As discussed previously, mobile apps work by sending requests
@@ -4570,7 +4570,7 @@ receive more messages from the mediator. There are messages
 Pickup](https://github.com/hyperledger/aries-rfcs/tree/main/features/0212-pickup) specifically
 defined for picking up messages using the return route protocol.
 
-## The Scenario: Preparing Alice's DIDDoc for Faber {#the-scenario-preparing-alices-diddoc-for-faber .unnumbered}
+## The Scenario: Preparing Alice's DIDDoc for Faber
 
 Given that background, let\'s go through the sequence of events and
 messages that occur when Alice and Faber first connect so that Alice\'s
@@ -4583,7 +4583,7 @@ agent:
 
 -   Completing the connection
 
-## Initialization: Alice and the Mediator {#initialization-alice-and-the-mediator .unnumbered}
+## Initialization: Alice and the Mediator
 
 Before Alice's wallet can connect to Faber (or any other) Aries agent,
 Alice's wallet must do a one-time setup of her inbound routing using a
@@ -4639,7 +4639,7 @@ Transport Return
 Route](https://github.com/hyperledger/aries-rfcs/tree/main/features/0092-transport-return-route) protocol
 will be used by Alice's mobile wallet to get messages from the mediator.
 
-## Connecting to Faber {#connecting-to-faber .unnumbered}
+## Connecting to Faber
 
 Let's assume that Alice\'s mobile wallet receives an out-of-band
 connection invitation message from Faber---perhaps via a QR code or a
@@ -4677,7 +4677,7 @@ the mediator, for every relationship they have. The downside of that is
 that Faber has to regularly check the public ledger for changes to the
 mediator's DIDDoc.
 
-## Completing the Connection {#completing-the-connection .unnumbered}
+## Completing the Connection
 
 With Alice's DIDDoc for Faber ready, Alice uses the endpoint provided in
 Faber's invitation to send a connection-request message to Faber with
@@ -4698,7 +4698,7 @@ Alice:
 
 -   Sends that message to the mediator endpoint.
 
-## Adding Mediators and Relays (1) {#adding-mediators-and-relays-1 .unnumbered}
+## Adding Mediators and Relays (1)
 
 Let's take a quick look at one more scenario, one that adds more steps
 to the routing and the resulting privacy. Back to our original Faber and
@@ -4757,7 +4757,7 @@ sends a
 -   Finally, once Alice's wallet has the message (!), it decrypts and
     processes it.
 
-## Adding Mediators and Relays (2) {#adding-mediators-and-relays-2 .unnumbered}
+## Adding Mediators and Relays (2)
 
 **NOTE**: The first two \"forward\" messages are required because of
 what Alice put into her DIDDoc for Faber. The third is independent of
@@ -4785,7 +4785,7 @@ everything after that. Finally, those deploying mediators and relays
 need to know how to configure them, but again, that is mostly about
 configuring the deployment rather than developing it.
 
-## Chapter 6 Summary {#chapter-6-summary .unnumbered}
+## Chapter 6 Summary
 
 What did we learn in this chapter? Lots about routing, including why it
 is needed, how it is implemented, particularly in the mobile wallet use
@@ -4807,7 +4807,7 @@ the chapter.
     many encryption envelopes), and to what endpoint the message should
     be sent.
 
-## Chapter 7 Overview -- Mobile Wallets {#chapter-7-overview-mobile-wallets .unnumbered}
+## Chapter 7 Overview -- Mobile Wallets
 
 Mobile wallets are a crucial part of the Aries ecosystem, providing
 people with a user-friendly, convenient way to receive credentials that
@@ -4821,7 +4821,7 @@ that stage!) but rather about the user experience of wallets---how to
 make the technology as accessible as possible for people to use in their
 everyday lives.
 
-## Learning Objectives {#learning-objectives-6 .unnumbered}
+## Learning Objectives
 
 In this chapter (7), you will learn about:
 
@@ -4841,7 +4841,7 @@ In this chapter (7), you will learn about:
 
 Let's jump in!
 
-## What Are the Aries Mobile Wallets Used For {#what-are-the-aries-mobile-wallets-used-for .unnumbered}
+## What Are the Aries Mobile Wallets Used For
 
 Aries wallets are much like any other Aries agent we've talked about in
 the course. They embed a framework that handles all of the core Aries
@@ -4853,7 +4853,7 @@ presentation requests and sending presentations. The following are a set
 of approaches and capabilities that are in Aries wallets, being worked
 on, or being considered as of this writing (January 2023).
 
-## Basic Capabilities and User Experience {#basic-capabilities-and-user-experience .unnumbered}
+## Basic Capabilities and User Experience
 
 All Aries wallets support a common core set of capabilities.
 
@@ -4894,7 +4894,7 @@ As both credentials and connections are collected, corresponding lists
 are created and made accessible to the wallet owner. We'll talk about
 that next.
 
-## Credential and Connection Lists {#credential-and-connection-lists .unnumbered}
+## Credential and Connection Lists
 
 An interesting debate in the Aries wallet community is if either (or
 both) of the lists of credentials or connections (aka \"contacts\")
@@ -4939,7 +4939,7 @@ By Neosfer
 
 Which do you think is the right choice?
 
-## Credential Types and Ledgers {#credential-types-and-ledgers .unnumbered}
+## Credential Types and Ledgers
 
 All Aries wallets to this point (as far as we know) have used
 exclusively AnonCreds credentials and Hyperledger Indy ledgers. This is
@@ -4967,7 +4967,7 @@ resolving DIDs, Aries wallets need not be so concerned about deciding up
 front the networks they support; they can tell from the DID they are
 resolving what ledger to read.
 
-## Beautiful Credentials and OCA for Aries {#beautiful-credentials-and-oca-for-aries .unnumbered}
+## Beautiful Credentials and OCA for Aries
 
 As Aries wallets have matured, pressure was added by business users to
 \"make credentials beautiful.\" Notably, they wanted issuers to have
@@ -5024,7 +5024,7 @@ its sibling, [RFC 0756 OCA for Aries Style
 Guide](https://github.com/swcurran/aries-rfcs/tree/oca4aries/features/0756-oca-for-aries-style-guide).
 It's fun stuff!
 
-## Advanced Chat and Actions Menu {#advanced-chat-and-actions-menu .unnumbered}
+## Advanced Chat and Actions Menu
 
 A powerful by-product of establishing a DIDComm connection with another
 agent is the secure, private communications channel between the
@@ -5089,7 +5089,7 @@ offering, and make it easier for you to initiate interactions with your
 connections, it's likely that the credential- vs. connection-centric
 wallet debate discussed earlier will lean towards connection-centric.
 
-## Governance: Trust the Issuer, Trust the Verifier, Trust the Holder (1) {#governance-trust-the-issuer-trust-the-verifier-trust-the-holder-1 .unnumbered}
+## Governance: Trust the Issuer, Trust the Verifier, Trust the Holder (1)
 
 As we've seen with telephone, email, websites, SMS and other
 communications systems, it can be easy to establish a communication
@@ -5138,7 +5138,7 @@ connection to prove who they are via verifiable credentials. That will
 be an improvement, but still leaves everyone \"fending for themselves\"
 in determining trust. They have better data, but it's still an effort.
 
-## Governance: Trust the Issuer, Trust the Verifier, Trust the Holder (2) {#governance-trust-the-issuer-trust-the-verifier-trust-the-holder-2 .unnumbered}
+## Governance: Trust the Issuer, Trust the Verifier, Trust the Holder (2)
 
 Going further, we expect to see implementations of community managed
 registries of trusted entities, a construct that Trust over IP
@@ -5188,7 +5188,7 @@ Group](https://identity.foundation/working-groups/wallet-security.html),
 where they have been both specifying and implementing some of the
 concepts talked about here.
 
-## Wallets as Verifiers {#wallets-as-verifiers .unnumbered}
+## Wallets as Verifiers
 
 We've talked about wallets being designed to automatically request
 presentations from other agents when forming a connection. When that is
@@ -5238,7 +5238,7 @@ research and development on the use of BLE for trusted messaging and
 credential exchange, with early examples just now coming to light. Keep
 an eye out for that feature!
 
-## Mobile Application and Mobile Wallet Interactions {#mobile-application-and-mobile-wallet-interactions .unnumbered}
+## Mobile Application and Mobile Wallet Interactions
 
 Let's cover one more interesting topic in the area of mobile wallets.
 One of the goals every wallet community has is that we not wind up with
@@ -5306,7 +5306,7 @@ app, just as with the deep-link design.
 
 This is an important mobile wallet issue that needs to be addressed!
 
-## Getting Hands On {#getting-hands-on .unnumbered}
+## Getting Hands On
 
 As we talked about at the start when discussing mobile wallets, there is
 a lot going on! The items in this section have covered lots of
@@ -5317,7 +5317,7 @@ looking into the state of these capabilities is an important step.
 Enough about possibilities---let's get hands on with a real Aries
 wallet!
 
-## Reasons to Have an Open Source Wallet {#reasons-to-have-an-open-source-wallet .unnumbered}
+## Reasons to Have an Open Source Wallet
 
 There are several reasons why open source mobile wallets are important
 as the use of verifiable credentials goes mainstream.
