@@ -2,13 +2,13 @@
 title: "**LFS173x - Linux FoundationX --**"
 ---
 
-![](images/media/image1.png){width="4.0in"
+![](images/image001.png){width="4.0in"
 height="1.4208191163604549in"}
 
 **Becoming a Hyperledger Aries Developer**
 
 ![lfs171x - hyperledger
-blockchain](images/media/image2.png){width="5.0in"
+blockchain](images/image002.png){width="5.0in"
 height="2.962648731408574in"}
 
 Welcome to LFS173x: Becoming a Hyperledger Aries Developer
@@ -207,7 +207,7 @@ information.* We read about these Internet issues all the time. Simply
 put, trust on the Internet is broken and it needs to be fixed.
 
 ![No Shortage of Headlines About Internet
-Issues](images/media/image3.png){width="4.0in"
+Issues](images/image003.png){width="4.0in"
 height="3.02958552055993in"}
 
 **No shortage of headlines about Internet issues**\
@@ -221,7 +221,7 @@ authentic data using distributed ledgers, purpose-built for
 decentralized trust.
 
 ![The Hyperledger Foundation
-Projects](images/media/image4.jpeg){width="6.0in"
+Projects](images/image004.jpeg){width="6.0in"
 height="3.1781517935258092in"}
 
 **The Hyperledger Foundation projects\
@@ -302,7 +302,7 @@ opening an account or in a bar, to prove that you are old enough to
 drink. When you are doing that you are *presenting* the credential.
 That's the *paper credential model*.
 
-![Examples of Paper Credentials](images/media/image5.png){width="4.0in"
+![Examples of Paper Credentials](images/image005.png){width="4.0in"
 height="1.4140627734033246in"}
 
 **Examples of paper credentials**\
@@ -408,7 +408,7 @@ In this course, we'll show you how to use Aries to solve all those
 challenges---and more!
 
 ![The W3C Verifiable Credentials
-Model](images/media/image6.png){width="4.0in"
+Model](images/image006.png){width="4.0in"
 height="1.9290387139107612in"}
 
 **The W3C Verifiable Credentials Model**\
@@ -489,7 +489,7 @@ over IP Stacks,\" as represented in this image from the [Trust over IP
 Foundation](https://trustoverip.org/):
 
 ![Trust over IP (ToIP) Technology
-Stacks](images/media/image7.png){width="7.5in"
+Stacks](images/image007.png){width="7.5in"
 height="4.5777318460192475in"}
 
 **Trust over IP (ToIP) technology stack**\
@@ -712,7 +712,7 @@ important privacy capability with verifiable credentials!
 
 ![An Example of Selective Disclosure---Person is verified as "old
 enough" to enter the bar but no other data is
-revealed](images/media/image8.png){width="4.0in"
+revealed](images/image008.png){width="4.0in"
 height="2.208030402449694in"}
 
 **An example of selective disclosure---person is verified as**\
@@ -880,7 +880,7 @@ profiles, and a test capability that allow Aries component builders to
 continuously demonstrate their implementation's adherence to the
 protocols and their interoperability with other implementations.
 
-![Hyperledger Aries logo](images/media/image9.png){width="4.0in"
+![Hyperledger Aries logo](images/image009.png){width="4.0in"
 height="1.1294116360454942in"}
 
 In this chapter, we'll try to convert all the buzzwords in the previous
@@ -918,7 +918,7 @@ characters that the Aries community has adopted for many Aries
 proof-of-concept implementations. You first met these characters in the
 LFS172x course.
 
-![](images/media/image10.png){width="4.0in"
+![](images/image010.png){width="4.0in"
 height="2.122876202974628in"}
 
 -   Alice is a person who has a mobile wallet that uses Aries protocols
@@ -1067,7 +1067,7 @@ While there can be many agent variations, the most common ones are:
     organizations.
 
 ![Phone, car, cloud, screen,
-home](images/media/image11.png){width="2.0in"
+home](images/image011.png){width="2.0in"
 height="2.1996270778652667in"}
 
 But let's not leave out agents for things! A significant emerging use
@@ -1104,7 +1104,7 @@ verifiable credential formats and to interact with other credential
 issuance/presentation approaches such as Open ID Connect.
 
 ![The Verifiable Credential Trust
-Triangle](images/media/image12.png){width="6.0in"
+Triangle](images/image012.png){width="6.0in"
 height="3.374790026246719in"}
 
 **The verifiable credential trust triangle**\
@@ -1123,7 +1123,7 @@ All Aries agent deployments have two logical components:
 a *framework* and a *controller*.
 
 ![The Logical Components of an Aries
-Agent](images/media/image13.png){width="4.0in"
+Agent](images/image013.png){width="4.0in"
 height="2.8892629046369205in"}
 
 **The Logical Components of an Aries Agent**\
@@ -1169,7 +1169,7 @@ The diagram below is an example of an Aries agent architecture, as
 exemplified by Aries Cloud Agent-Python (ACA-Py):
 
 ![Aries Agent Architecture
-(ACA-Py)](images/media/image14.png){width="4.0in"
+(ACA-Py)](images/image014.png){width="4.0in"
 height="4.585994094488189in"}
 
 **Aries agent architecture (ACA-Py)**\
@@ -1210,7 +1210,7 @@ The controller sits waiting for an event. When received, the event type
 is determined, it is dispatched for processing, and back into the event
 loop we go.
 
-![](images/media/image15.jpeg){width="4.0in"
+![](images/image015.jpeg){width="4.0in"
 height="2.6666666666666665in"}
 
 **My Aries controller\
@@ -1660,7 +1660,7 @@ and a summary report is generated that is published on the [Aries
 Interoperability Test Results](https://aries-interop.info/) website
 every few days (whenever the results change).
 
-![](images/media/image16.png){width="7.0in"
+![](images/image016.png){width="7.0in"
 height="5.210457130358705in"}
 
 **Screenshot of
@@ -2008,7 +2008,7 @@ are rarely reset, so even long lasting tests can use a BCovrin network.
 They are only for testing---definitely don't rely on them for production
 work!
 
-![Bulb](images/media/image17.png){width="1.0in"
+![Bulb](images/image017.png){width="1.0in"
 height="1.2834787839020123in"}
 
 An important thing that an Aries developer needs to know about using a
@@ -2148,7 +2148,7 @@ you are wondering, the magic seed is:
 answer***](https://stackoverflow.com/questions/59089178/hypelerdger-indy-node-seed-value) on
 Stack Overflow about where it comes from.
 
-![Bulb](images/media/image17.png){width="1.0in"
+![Bulb](images/image017.png){width="1.0in"
 height="1.2834787839020123in"}
 
 By the way, the typical problems that developers have with genesis files
@@ -2252,7 +2252,7 @@ driver per DID method---and the selected DID method knows how to
 interact with the distributed ledger (or other storage location) to get
 and return the DIDDoc associated with the DID.
 
-![The DID Resolution Process](images/media/image18.png){width="5.0in"
+![The DID Resolution Process](images/image018.png){width="5.0in"
 height="2.812325021872266in"}
 
 **The DID Resolution Process**\
@@ -2305,7 +2305,7 @@ Each supported DID method is handled in one of two ways:
 -   The resolver might be part of an external \"universal resolver.\"
 
 ![Aries Agent DID Resolution: Local and
-External](images/media/image19.png){width="5.0in"
+External](images/image019.png){width="5.0in"
 height="3.792250656167979in"}
 
 **Aries agent DID resolution: local and external**\
@@ -2586,7 +2586,7 @@ defaults. This is shown in the image below. ACA-Py uses the (pretty
 cool!) ConfigArgParse library to handle arguments.
 
 ![Override Order When Specifying
-Options](images/media/image20.png){width="2.0in"
+Options](images/image020.png){width="2.0in"
 height="2.827225503062117in"}
 
 **Override order when specifying options**\
@@ -2617,7 +2617,7 @@ that everything is in place in secure storage and on ledger. If it finds
 things aren't as expected, it should error and stop---an indicator that
 something is wrong.
 
-![Cook](images/media/image21.png){width="2.0in"
+![Cook](images/image021.png){width="2.0in"
 height="2.17872375328084in"}
 
 The \"provision\" and \"start\" separation is done for security and
@@ -2814,7 +2814,7 @@ or sent by/to that agent. The details of the elements of all protocols
 are covered in Aries [RFC
 0003](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0003-protocols).
 
-![](images/media/image22.png){width="6.0in"
+![](images/image022.png){width="6.0in"
 height="2.7910367454068243in"}
 
 In ACA-Py, the code for protocols is implemented as (possibly
@@ -2991,7 +2991,7 @@ Here's what happens:
     \"credential_request\" endpoint to request the offered credential.
 
 ![Aries Protocols in ACA-Py from the Controller's
-Perspective](images/media/image23.png){width="5.0in"
+Perspective](images/image023.png){width="5.0in"
 height="4.166666666666667in"}
 
 **Aries protocols in ACA-Py from the controller's perspective**\
@@ -3204,7 +3204,7 @@ the details about how the requests and events are handled that differ
 between the two.
 
 ![Aries Agent Architecture---Aries Framework
-JavaScript](images/media/image24.png){width="4.0in"
+JavaScript](images/image024.png){width="4.0in"
 height="4.3697473753280835in"}
 
 **Aries agent architecture---Aries Framework JavaScript**\
@@ -3405,12 +3405,12 @@ roles---greeting, being seated, looking at menus, ordering food, etc.
 Unlike human protocols (etiquette), Aries protocols need to be carefully
 specified and then implemented by multiple participants.
 
-![](images/media/image25.png){width="2.0in"
+![](images/image025.png){width="2.0in"
 height="1.4923075240594925in"}
 
 With Aries, there are two levels of messaging protocols.
 
-![DIDComm](images/media/image26.png){width="3.0in"
+![DIDComm](images/image026.png){width="3.0in"
 height="3.3266108923884516in"}
 
 **DIDComm**\
@@ -3628,7 +3628,7 @@ ack, and [RFC
 0035](https://github.com/hyperledger/aries-rfcs/tree/main/features/0035-report-problem) for
 problem report.
 
-![Bulb](images/media/image17.png){width="1.0in"
+![Bulb](images/image017.png){width="1.0in"
 height="1.2834787839020123in"}
 
 Remember that unlike HTTP requests, all DIDComm messages are
@@ -3673,7 +3673,7 @@ messages from the perspective of the controller. We'll start with a
 controller initiating a message, and then move onto the receipt of a
 response to the message.
 
-![Bulb](images/media/image17.png){width="1.0in"
+![Bulb](images/image017.png){width="1.0in"
 height="1.2834787839020123in"}
 
 You should have noticed in looking at the ACA-Py startup parameters and
@@ -3727,7 +3727,7 @@ controller might have its own database, and create a record that has
 both an identifier for Alice's DIDComm connection and an identifier for
 her record in the \"Student Information System.\"
 
-![](images/media/image27.png){width="2.7291666666666665in"
+![](images/image027.png){width="2.7291666666666665in"
 height="2.1979166666666665in"}
 
 Armed with that information, agent framework code carries out the
@@ -4079,7 +4079,7 @@ That means a message from Faber to Alice actually involves 5 different
 Aries agents, flowing from agents 1 to 5 via agents 2, 3 and then 4.
 
 ![Message flow from Faber to
-Alice](images/media/image28.png){width="5.0in"
+Alice](images/image028.png){width="5.0in"
 height="1.604575678040245in"}
 
 **Message flow from Faber to Alice**\
@@ -4358,7 +4358,7 @@ have to think about how you will deploy a cloud-based mediator agent,
 how it will be architected and what features it will provide.
 
 ![Things to Consider When Developing a Mobile
-Agent](images/media/image29.png){width="4.0in"
+Agent](images/image029.png){width="4.0in"
 height="3.38300634295713in"}
 
 **Things to consider when developing a mobile agent**\
@@ -4444,7 +4444,7 @@ the message to go from Faber to Alice. We'll keep the numbering from the
 earlier image, so Alice's mediator is still agent 4.
 
 ![Faber Sending Messages to Alice --- Common
-Case](images/media/image30.png){width="5.0in"
+Case](images/image030.png){width="5.0in"
 height="1.604575678040245in"}
 
 **Faber sending messages to Alice --- common case**\
@@ -4509,18 +4509,18 @@ discussion in Chapter 4 that \"did:key\" is a plain public key and key
 type that is formatted as a DID. An example of a \"did:key\" is in the
 JSON above.
 
-![](images/media/image31.png){width="6.0in"
+![](images/image031.png){width="6.0in"
 height="5.084033245844269in"}
 
 ## The Scenario: DIDDoc Data (2) {#the-scenario-diddoc-data-2 .unnumbered}
 
-![](images/media/image32.png){width="6.0in"
+![](images/image032.png){width="6.0in"
 height="2.6957983377077865in"}
 
-![](images/media/image33.png){width="6.0in"
+![](images/image033.png){width="6.0in"
 height="4.908683289588802in"}
 
-![](images/media/image34.png){width="6.0in"
+![](images/image034.png){width="6.0in"
 height="4.5198884514435695in"}
 
 ## The Scenario: The null ServiceEndpoint {#the-scenario-the-null-serviceendpoint .unnumbered}
@@ -4709,7 +4709,7 @@ so on. We do recommend you think about what those steps will be as we go
 through the scenario. Back to this picture:
 
 ![Message flow from Faber to
-Alice](images/media/image28.png){width="5.0in"
+Alice](images/image028.png){width="5.0in"
 height="1.6045745844269466in"}
 
 **Message flow from Faber to Alice**\
@@ -4867,7 +4867,7 @@ The mediation initialization sequence we talked about in the last
 chapter is completed.
 
 ![Screenshot from an open source Aries mobile wallet
-application](images/media/image35.png){width="2.0in"
+application](images/image035.png){width="2.0in"
 height="4.330103893263342in"}
 
 **Screenshot from an open source Aries mobile wallet application**\
@@ -4931,7 +4931,7 @@ resolved, one way or the other. The answer might even be both, as we see
 in this image from the [Lissi wallet](https://www.lissi.id/).
 
 ![Screenshot from the Lissi Aries Mobile Wallet
-App](images/media/image36.png){width="2.0in"
+App](images/image036.png){width="2.0in"
 height="4.330103893263342in"}
 
 **Screenshot from the Lissi Aries mobile wallet application**\
@@ -5010,7 +5010,7 @@ OCA support, displayed first in English, and then in French. Note in the
 image the different \"date\" renderings, the raw date in the first, and
 then the user setting rendering in the next two.
 
-![OCA for Aries in action!](images/media/image37.png){width="6.0in"
+![OCA for Aries in action!](images/image037.png){width="6.0in"
 height="3.5535017497812773in"}
 
 **OCA for Aries in action!**\
@@ -5072,7 +5072,7 @@ has clicked into a contact, requested their \"main menu,\" and is
 showing the (important!) options.
 
 ![Aries DIDComm Wallet for Chat: Chat List, Chat, Action
-Menu](images/media/image38.png){width="6.0in"
+Menu](images/image038.png){width="6.0in"
 height="3.8588232720909885in"}
 
 **Aries DIDComm wallet for chat: chat list, chat, action menu**\
@@ -5107,7 +5107,7 @@ the key questions that need to be asked by the participants in a Trust
 ecosystem of issuers, holders and verifiers.
 
 ![Establishing Trust in an
-Ecosystem](images/media/image39.png){width="6.0in"
+Ecosystem](images/image039.png){width="6.0in"
 height="3.374790026246719in"}
 
 **Establishing trust in an Ecosystem**\
@@ -5440,7 +5440,7 @@ commonly applicable, with just configurations needed that are specific
 to each different wallet.
 
 ![The BC Gov Wallet Build/Publish
-Pipeline](images/media/image40.png){width="5.0in"
+Pipeline](images/image040.png){width="5.0in"
 height="3.5807655293088363in"}
 
 **The BC Government Wallet build/publish pipeline**\
@@ -5607,7 +5607,7 @@ The bulk of this chapter will be about production issues around
 enterprise agents, particularly issuer agents. But we'll first touch
 briefly on mobile wallets and the challenges they bring.
 
-![Screen, laptop, tablet, phone](images/media/image41.png){width="4.0in"
+![Screen, laptop, tablet, phone](images/image041.png){width="4.0in"
 height="2.5639588801399826in"}
 
 **NOTE**: We are not experts in mobile development so these are based on
@@ -5644,7 +5644,7 @@ based) that align to AIP versions and are tested for interoperability is
 crucial for the community of agent builders. For these applications to
 succeed, they all have to be able to work together!
 
-![People holding hands](images/media/image42.png){width="2.0in"
+![People holding hands](images/image042.png){width="2.0in"
 height="2.168627515310586in"}
 
 An important mechanism for managing upgrades in Aries is described
@@ -5691,7 +5691,7 @@ AATH are the following:
 If you have ideas on how to make that happen, please connect (on
 Hyperledger Discord) with the AATH developers!
 
-![Wallet](images/media/image43.png){width="2.0in"
+![Wallet](images/image043.png){width="2.0in"
 height="2.7480916447944006in"}
 
 ## Deploying a Mediator (Or Not) {#deploying-a-mediator-or-not .unnumbered}
@@ -5785,7 +5785,7 @@ storage. When that happens, you are forced to delete everything and
 start again. That's OK during development, but in production, you won't
 have that luxury---you can't afford to lose the data!
 
-![Sandbox](images/media/image44.png){width="2.0in"
+![Sandbox](images/image044.png){width="2.0in"
 height="1.5835662729658793in"}
 
 Some production ledgers (for example, Sovrin MainNet) there is a fee for
@@ -5812,7 +5812,7 @@ should be able to get credentials easily reissued), backup and restore
 for enterprise Aries agents is crucial from day one.
 
 ![Cloud with an arrow pointing
-up](images/media/image45.png){width="2.0in"
+up](images/image045.png){width="2.0in"
 height="1.8351071741032372in"}
 
 Fortunately, unlike the mobile use case, backup and restore for the
@@ -6105,7 +6105,7 @@ those extra challenges, leaving you, the Aries application developer,
 with just some extra configuration and implementing the business logic
 to do what is necessary---revoking credentials.
 
-![](images/media/image46.png){width="5.0in"
+![](images/image046.png){width="5.0in"
 height="1.6311854768153982in"}
 
 We're not going to cover how AnonCreds revocation works, but rather
@@ -6369,7 +6369,7 @@ much processing power as is available. The architecture of the solution
 is pictured below.
 
 ![OrgBook BC Issuer-Holder Agents
-Architecture](images/media/image47.png){width="2.0in"
+Architecture](images/image047.png){width="2.0in"
 height="4.130018591426071in"}
 
 **OrgBook BC issuer-holder agents architecture**\
@@ -6521,7 +6521,7 @@ properly, particularly as it relates to objects written to the ledger. A
 naive approach to starting every instance of an agent might be to follow
 the pattern in the image below.
 
-![Initializing Aries Agents](images/media/image48.png){width="3.0in"
+![Initializing Aries Agents](images/image048.png){width="3.0in"
 height="2.9137259405074367in"}
 
 **Initializing Aries agents**\
@@ -6629,7 +6629,7 @@ messages from external agents are received by the base storage
 on to the right tenant.
 
 ![External Agent Messaging in a Multi-Tenant ACA-Py
-instance](images/media/image49.png){width="5.0in"
+instance](images/image049.png){width="5.0in"
 height="2.1223151793525807in"}
 
 **External agent messaging in a multi-tenant ACA-Py instance**\
@@ -6727,7 +6727,7 @@ is represented in this image from the [Trust over IP
 Foundation](https://trustoverip.org/).
 
 ![Trust over IP (ToIP) Technology
-Stacks](images/media/image7.png){width="5.0in"
+Stacks](images/image007.png){width="5.0in"
 height="3.0518208661417323in"}
 
 **Trust over IP (ToIP) Technology Stack**\
@@ -6833,7 +6833,7 @@ developers and teams building applications on ACA-Py. Listed at the end
 of this chapter are the links for all of the Aries project chat channels
 and meeting pages.
 
-![Aca Pug logo](images/media/image50.png){width="2.0in"
+![Aca Pug logo](images/image050.png){width="2.0in"
 height="2.296551837270341in"}
 
 Looking for Hyperledger Aries product ideas? The last chapter of the
